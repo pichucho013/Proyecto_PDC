@@ -6,7 +6,7 @@
                       <li>
                         <div class="unit unit-horizontal unit-spacing-xs align-items-center">
                           <div class="unit-left"><span class="novi-icon icon icon-xxs icon-primary material-icons-phone"></span></div>
-                          <div class="unit-body"><a class="link-dusty-gray" href="tel:#">+1 (232) 349–8447</a></div>
+                          <div class="unit-body"><a class="link-dusty-gray" href="tel:#">(0228) 630131</a></div>
                         </div>
                       </li>
                       <li>
