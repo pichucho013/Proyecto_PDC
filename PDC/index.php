@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Home</title>
+    <title>Inicio</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -64,7 +64,7 @@
                         <a href="#">Comunicados</a>
                       </div>
                     </div> 
-                    <a href="#about">Contacto</a>
+                    <a href="contactos.php">Contacto</a>
                     <a href="#" style="height: 57px;" class="icon" onclick="myFunction()">&#9776;</a>
                   </div>
               </div>

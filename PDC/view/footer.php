@@ -6,14 +6,14 @@
                 <div class="group-sm group-middle">
                   <p class="font-italic text-white">Siguenos:</p>
                   <ul class="list-inline list-inline-reset">
-                    <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-facebook" href="#"></a></li>
+                    <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-facebook" href="https://www.facebook.com/Partido-Dem%C3%B3crata-Cristiano-Paraguay-111195607373564/" target="_blank"></a></li>
                     <!-- <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-twitter" href="#"></a></li> -->
-                    <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-google" href="#"></a></li>
+                    <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-youtube" href="#"></a></li>
                   </ul>
                 </div>
               </div>
               <div class="col-md-6 text-md-left">
-                <p class="rights text-white"><span class="copyright-year"></span><span>&nbsp;&#169;&nbsp;</span><span>LawExpert.&nbsp; All Rights Reserved.</span>Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com">TemplateMonster</a></p>
+                <p class="rights text-white"><span class="copyright-year"></span><span>&nbsp;&#169;&nbsp;</span><span>PDC.&nbsp; Todos los derechos reservados.</span></p>
               </div>
             </div>
           </div>

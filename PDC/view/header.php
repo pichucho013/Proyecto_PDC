@@ -6,21 +6,27 @@
                       <li>
                         <div class="unit unit-horizontal unit-spacing-xs align-items-center">
                           <div class="unit-left"><span class="novi-icon icon icon-xxs icon-primary material-icons-phone"></span></div>
-                          <div class="unit-body"><a class="link-dusty-gray" href="tel:#">(0228) 630131</a></div>
+                          <div class="unit-body"><a class="link-dusty-gray" href="#">+59521 420 434</a></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="unit unit-horizontal unit-spacing-xs align-items-center">
+                          <div class="unit-left"><span class="novi-icon icon icon-xxs icon-primary fab fa-whatsapp"></span></div>
+                          <div class="unit-body"><a class="link-dusty-gray" href="https://wa.me/+595981212085" target="_blank">+59521 420 434</a></div>
                         </div>
                       </li>
                       <li>
                         <div class="unit unit-horizontal unit-spacing-xs align-items-center">
                           <div class="unit-left"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span></div>
-                          <div class="unit-body"><a class="link-dusty-gray" href="mailto:#">info@demolink.org</a></div>
+                          <div class="unit-body"><a class="link-dusty-gray" href="mailto:#">pdc.paraguay@gmail.com</a></div>
                         </div>
                       </li>
                     </ul>
                     <div class="rd-navbar-aside-group">
                       <ul class="list-inline list-inline-reset">
-                        <li><a class="novi-icon icon icon-circle icon-nobel-filled icon-xxs-smaller fa fa-facebook" href="#"></a></li>
+                        <li><a class="novi-icon icon icon-circle icon-nobel-filled icon-xxs-smaller fa fa-facebook" href="https://www.facebook.com/Partido-Dem%C3%B3crata-Cristiano-Paraguay-111195607373564/" target="_blank"></a></li>
                         <!-- <li><a class="novi-icon icon icon-circle icon-nobel-filled icon-xxs-smaller fa fa-instagram" href="#"></a></li> -->
-                        <li><a class="novi-icon icon icon-circle icon-nobel-filled icon-xxs-smaller fa fa-google" href="#"></a></li>
+                        <li><a class="novi-icon icon icon-circle icon-nobel-filled icon-xxs-smaller fa fa-youtube" href="#"></a></li>
                       </ul>
                     </div>
                   </div>
