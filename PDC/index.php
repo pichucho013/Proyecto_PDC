@@ -34,24 +34,33 @@
 
             <?php require('view/header.php'); ?>
 
-              <div class="rd-navbar-group">
+            <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="index.html"><img src="images/logo.png" alt="" width="100px"/></a>
+                  <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.png" alt="" width="100px"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
-                    <a href="#home" class="activo">Inicio</a>
+                    <a href="#home" >Inicio</a>
                     <div class="dropdown">
-                      <button class="dropbtn">PDC 
+                      <button class="dropbtn">Nosotros 
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Quienes somos</a>
-                        <a href="#">Presidente</a>
-                        <a href="#">Directiva</a>
+                        <a href="#">Quienes Somos</a>
+                        <a href="#">Autoridades</a>
                         <a href="#">Organigrama</a>
+                        <a href="#">PDC en el mundo</a>
                       </div>
                     </div>
                     <a href="#news">Estatuto</a>
+                    <div class="dropdown">
+                      <button class="dropbtn">Electoral 
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">Sala Electoral</a>
+                        <a href="#">Candidatos</a>
+                      </div>
+                    </div>
                     <div class="dropdown">
                       <button class="dropbtn">Prensa 
                         <i class="fa fa-caret-down"></i>
@@ -61,10 +70,9 @@
                         <a href="#">Actividades</a>
                         <a href="#">Galeria</a>
                         <a href="#">Documentos</a>
-                        <a href="#">Comunicados</a>
                       </div>
                     </div> 
-                    <a href="contactos.php">Contacto</a>
+                    <a href="contactos.php" class="activo">Contacto</a>
                     <a href="#" style="height: 57px;" class="icon" onclick="myFunction()">&#9776;</a>
                   </div>
               </div>

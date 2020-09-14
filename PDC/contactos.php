@@ -41,17 +41,26 @@
                 <div class="topnav" id="myTopnav">
                     <a href="#home" >Inicio</a>
                     <div class="dropdown">
-                      <button class="dropbtn">PDC 
+                      <button class="dropbtn">Nosotros 
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Quienes somos</a>
-                        <a href="#">Presidente</a>
-                        <a href="#">Directiva</a>
+                        <a href="#">Quienes Somos</a>
+                        <a href="#">Autoridades</a>
                         <a href="#">Organigrama</a>
+                        <a href="#">PDC en el mundo</a>
                       </div>
                     </div>
                     <a href="#news">Estatuto</a>
+                    <div class="dropdown">
+                      <button class="dropbtn">Electoral 
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">Sala Electoral</a>
+                        <a href="#">Candidatos</a>
+                      </div>
+                    </div>
                     <div class="dropdown">
                       <button class="dropbtn">Prensa 
                         <i class="fa fa-caret-down"></i>
@@ -61,7 +70,6 @@
                         <a href="#">Actividades</a>
                         <a href="#">Galeria</a>
                         <a href="#">Documentos</a>
-                        <a href="#">Comunicados</a>
                       </div>
                     </div> 
                     <a href="contactos.php" class="activo">Contacto</a>
