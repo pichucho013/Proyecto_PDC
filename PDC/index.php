@@ -48,7 +48,7 @@
                         <a href="pdc/quienesomos.php">Quienes Somos</a>
                         <a href="#">Autoridades</a>
                         <a href="#">Organigrama</a>
-                        <a href="#">PDC en el mundo</a>
+                        <a href="pdc/pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
                     <a href="#news">Estatuto</a>

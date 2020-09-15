@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Quienes somos</title>
+    <title>PDC en el mundo</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -81,101 +81,54 @@
         </div>
       </header>
 
-      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner-quienes.png);">
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner-pdcmundo.png);">
         <div class="container">
           <div class="page-title">
-            <h2>Quienes somos</h2>
+            <h2>PDC en el mundo</h2>
           </div>
         </div>
       </section>
 
-      <section class="section-35">
+      <section class="section-35 section-md-50">
         <div class="container">
-          <h3>NUESTRA HISTORIA</h3>
-          <figure><img src="images/typography-1-1169x610.jpg" alt="" width="1169" height="610"/>
-          </figure>
-          <p>Nace como Movimiento Social Democrata Cristiano el 15 de
-mayo de 1960, en plenadictadura,en la carpinteria delColegio
-Salesianito de ASuncion, mediante la convergencia de
-organizaciones sociales tales como la Accion Catolica, la
-Juventud Universitaria Catolica, la Juventud Obrera Catdlica,
-organizaciones campesinas, obreras, estudiantes,
-profesionales, empresariales.</p>
-<p>En 1969 5e pide formalmente su reconocimiento como Partido
-Democrata Cristiano, pero es rechazado sistematicamente por
-el regimendictatorial; entoncesel partido decide recurrir
-a la
-Corte Suprema de Justicia. EL juicio dura 17 afios, hasta que
-finalmente, la Corte se expide en el afio 1987, negando el
-reconocimiento. En 1989, despuesdelgolpede Estado, recibe el
-reconocimiento partidario, el
-6 de marzo,
-a traves de la Junta Electoral Central</p>
-        </div>
-        <div class="container">
-          <h3>¿QUE ES EL PARTIDO DEMOCRATA CRISTIANO?</h3>
-          <figure><img src="images/typography-1-1169x610.jpg" alt="" width="1169" height="610"/>
-          </figure>
-          <p>Es una agrupacion de hombres y mujeres libres, que 5e
-unen en torno a un proyecto, a un programay a una organizacion
-politica, destinada a la construccion de una Sociedad en
-progreso continuo. Piensa y actua en funcion de los ejes
-centrales de la democracia participativa, la economia social de
-mercadoy ei humanismocristiano.
-Su fortaleza fue, es y sera Siempre la sensibilidad hacia los
-reclamosde los mas debiles y necesitados.</p>
-        </div>
-      </section>
-
-      <section class="section-35 section-md-top-75 section-md-bottom-50">
-        <div class="container">
-          <div class="row row-40">
+          <h3>ODCA</h3>
+          <div class="row row-30 flex-row-md-reverse justify-content-lg-between">
             <div class="col-md-6">
-              <h3>Visión</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
-                <p>Ser una organizacion politica, con principios y valores
-democratas-cristianos, formadora de ciudadania comprometida
-en politicas publicas dtiles para la Patria, a fin de lograr el
-Bienestar Espiritual, EconomicoySocial del Paraguay.</p>
-              </div>
+              <figure><img src="../images/pdcmundo1.PNG" alt="" width="570" height="386"/>
+              </figure>
             </div>
             <div class="col-md-6">
-              <h3>Misión</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
-                <p>Intervenir activamente en las politicas piiblicas con lideres
-honestos, capaces y patriotas, para lograr el Bienestar
-Espiritual, EconomicoySocial del Paraguay.</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <h3>Objetivo General</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
-                <p>Fortalecimientodela estructura partidaria, capacitacion
-continua a los afitiados y a los militantes en los principios
-ideologicos socialcristianos, y en promover politicas pliblicas
-con el propesito de participar en las elecciones nacionales,
-departamentales y municipales, para ocupar espacios politicos,
-a fin de lograr el Bienestar Espiritual, Economico y Social del
-Paraguay.
-</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <h3>Objetivos Especificos</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
-                <p>Trabajar para el fortalecimiento de los organismos
-partidarios en todos los sectores y niveles, con la adhesion
-permanente de nuevos afiliados. Capacitar a los afiliados y
-Simpatizantes en nuestros principios ideologicosy en politicas
-pUblicas de bien comin.</p>
+              <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
+                <p>El PDC por medio de sus principios humanistas cristianos, forma parte de la Organización Demócrata Cristiana de América (ODCA).</p>
+                <p>La ODCA es una organización política internacional conformada por partidos políticos, agrupaciones y asociaciones del continente americano, que comparten los principios del humanismo cristiano, y que trabajan coordinadamente por el desarrollo integral de la persona humana, la libertad, la democracia, los derechos humanos, el desarrollo con equidad, el respeto al medio ambiente y la paz mundial. </p>
+                <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="http://www.odca.cl/">Ver mas</a></div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-       <?php require('../view/footer.php'); ?>
-    </div>
+      <section class="section-40 section-md-bottom-100 section-xl-bottom-165">
+        <div class="container">
+          <h3>KAS</h3>
+          <div class="row row-30 justify-content-lg-between">
+            <div class="col-md-6">
+              <figure><img src="../images/pdcmundo2.PNG" alt="" width="570" height="386"/>
+              </figure>
+            </div>
+            <div class="col-md-6">
+              <div class="inset-lg-left-40 inset-xl-left-70 text-secondary">
+                <p>Por medio de la ODCA, nuestro partido también se encuentra ligado a la Fundación Konrad Adenauer (KAS).</p>
+                <p>La KAS es una fundación política alemana creada por la Unión Demócrata Cristiana de Alemania para fomentar a nivel mundial los ideales demócrata cristianos y socialcristianos. Comprometida a nivel nacional e internacional a fomentar los principios de Paz, Libertad y Justicia a través de la educación cívica y formación política. Promoviendo y preservando la democracia liberal, la economía social de mercado y el desarrollo y la consolidación de un consenso de valores.</p>
+                <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="https://www.kas.de/es/">Ver mas</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <?php require('../view/footer.php'); ?>
+    
     <div class="snackbars" id="form-output-global"></div>
     <script src="../js/core.min.js"></script>
     <script src="../js/script.js"></script>

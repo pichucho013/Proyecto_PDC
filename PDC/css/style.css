@@ -63,6 +63,9 @@ body {
 	-webkit-font-smoothing: subpixel-antialiased;
 	text-rendering: optimizeLegibility;
 }
+.boton{
+	background-color: #07A00A;
+}
 
 .page {
 	overflow: hidden;
@@ -980,7 +983,7 @@ html .button-primary .badge {
 	color: #cca876;
 	background-color: #fff;
 }
-
+/*Hice modificaciones del boton cambie el background-color: transparent por background-color:#07A00A;*/
 html .button-primary-outline, html .button-primary-outline:active, html .button-primary-outline.active, html .button-primary-outline:active:focus, html .button-primary-outline.active:focus, html .button-primary-outline:focus:active, html .button-primary-outline:focus {
 	color: #cca876;
 	background-color: transparent;
