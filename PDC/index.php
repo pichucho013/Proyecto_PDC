@@ -34,24 +34,33 @@
 
             <?php require('view/header.php'); ?>
 
-              <div class="rd-navbar-group">
+            <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="index.html"><img src="images/logo.png" alt="" width="100px"/></a>
+                  <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.png" alt="" width="100px"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
-                    <a href="#home" class="activo">Inicio</a>
+                    <a href="#home" >Inicio</a>
                     <div class="dropdown">
-                      <button class="dropbtn">PDC 
+                      <button class="dropbtn">Nosotros 
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Quienes somos</a>
-                        <a href="#">Presidente</a>
-                        <a href="#">Directiva</a>
+                        <a href="pdc/quienesomos.php">Quienes Somos</a>
+                        <a href="#">Autoridades</a>
                         <a href="#">Organigrama</a>
+                        <a href="#">PDC en el mundo</a>
                       </div>
                     </div>
                     <a href="#news">Estatuto</a>
+                    <div class="dropdown">
+                      <button class="dropbtn">Electoral 
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">Sala Electoral</a>
+                        <a href="#">Candidatos</a>
+                      </div>
+                    </div>
                     <div class="dropdown">
                       <button class="dropbtn">Prensa 
                         <i class="fa fa-caret-down"></i>
@@ -61,18 +70,17 @@
                         <a href="#">Actividades</a>
                         <a href="#">Galeria</a>
                         <a href="#">Documentos</a>
-                        <a href="#">Comunicados</a>
                       </div>
                     </div> 
-                    <a href="#about">Contacto</a>
+                    <a href="contactos.php" class="activo">Contacto</a>
                     <a href="#" style="height: 57px;" class="icon" onclick="myFunction()">&#9776;</a>
                   </div>
               </div>
             </div>
           </nav>
         </div>
+      </header>
 
-        
       </header>
 
       <section>
@@ -86,7 +94,7 @@
                       <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
                         <h3 class="medium text-primary">With Us</h3>
                       </div>
-                      <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">You Are Always One Step Ahead</h2>
+                      <h1 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">Partido Democrata Cristiano Paraguay</h1>
                       <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">Strategies of our attorneys will help you solve very complex legal issues.</p>
                       <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="#">Request a Free Consultation</a></div>
                     </div>
@@ -143,7 +151,7 @@
                 <div class="box-top">
                   <div class="box-icon"><span class="novi-icon icon icon-primary icon-lg mercury-icon-briefcase"></span></div>
                   <div class="box-header">
-                    <h5><a href="#">Business Law</a></h5>
+                    <h5><a href="#">Salud</a></h5>
                   </div>
                 </div>
                 <div class="divider bg-accent"></div>
@@ -157,7 +165,7 @@
                 <div class="box-top">
                   <div class="box-icon"><span class="novi-icon icon icon-primary icon-lg mercury-icon-users"></span></div>
                   <div class="box-header">
-                    <h5><a href="#">Family Law</a></h5>
+                    <h5><a href="#">Economía</a></h5>
                   </div>
                 </div>
                 <div class="divider bg-accent"></div>
@@ -171,7 +179,7 @@
                 <div class="box-top">
                   <div class="box-icon"><span class="novi-icon icon icon-primary icon-lg mercury-icon-lib"></span></div>
                   <div class="box-header">
-                    <h5><a href="#">Civil Litigation</a></h5>
+                    <h5><a href="#">Educación</a></h5>
                   </div>
                 </div>
                 <div class="divider bg-accent"></div>
@@ -189,19 +197,19 @@
           <div class="container">
             <div class="inset-xl-left-70 inset-xl-right-70">
               <article class="box-cart bg-ebony-clay">
-                <div class="box-cart-image"><img src="images/home-2-342x338.jpg" alt="" width="342" height="338"/>
+                <div class="box-cart-image"><img src="images/presidente.PNG" alt="" width="342" height="338"/>
                 </div>
                 <div class="box-cart-body">
                   <blockquote class="blockquote-complex blockquote-complex-inverse">
-                    <h3>About Us</h3>
+                    <h3>Presidente</h3>
                     <p>
-                      <q>When you place your case in the hands of our lawyers and paralegals, you are placing your case in the hands of professionals who are committed to achieving the best possible outcome.</q>
+                      <q>Nacio el 13 de octubre de 1945 en Mcal Estigarribia(Chaco) su estado civil es casado y es de nacionalidad Paraguaya.</q>
                     </p>
                     <div class="quote-footer">
-                      <cite>Ryan Emberson</cite><small>CEO at LawExpert</small>
+                      <cite>HORACIO GALEANO PERRONE</cite><small>Presidente del PDC</small>
                     </div>
                   </blockquote>
-                  <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="#">Request a Free Consultation</a></div>
+                  <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="http://www.horaciogaleanoperrone.com.py/">Ver mas</a></div>
                 </div>
               </article>
             </div>
@@ -267,8 +275,8 @@
             <div class="col-sm-6 col-md-12 col-lg-3 text-center">
               <div class="block-wrap-1">
                 <div class="block-number">06</div>
-                <h3 class="text-normal">Experts</h3>
-                <p class="h5 h5-smaller text-style-4">in Their Fields</p>
+                <h3 class="text-normal">Autoridades</h3>
+                <p class="h5 h5-smaller text-style-4">del PDC</p>
                 <p>If you or your business is facing a legal challenge, contact us today to arrange a free initial consultation with an attorney.</p><a class="link link-group link-group-animated link-bold link-secondary" href="#"><span>Read more</span><span class="novi-icon icon icon-xxs icon-primary fa fa-angle-right"></span></a>
               </div>
             </div>
