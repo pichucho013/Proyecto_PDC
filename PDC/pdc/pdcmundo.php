@@ -40,15 +40,15 @@
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php">Inicio</a>
-                    <div class="dropdown">
-                      <button class="dropbtn" class="activo">Nosotros 
+                    <div class="dropdown activo">
+                      <button class="dropbtn" >Nosotros 
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
                         <a href="../pdc/quienesomos.php">Quienes somos</a>
                         <a href="#">Autoridades</a>
                         <a href="#">Organigrama</a>
-                        <a href="../pdc/pdcmundo.php">PDC en el mundo</a>
+                        <a class="activo" href="../pdc/pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
                     <a href="#news">Estatuto</a>
@@ -124,6 +124,17 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="section-35">
+        <div class="container">
+          <h3>Fotos ODCA</h3>
+          <p class="text-secondary">En el año 2015 la Juventud Democrática Cristiana de América (JODCA), se reunió en San José - Costa Rica, para elegir a la Directiva que actualmente es presidida por Henry Salazar del Partido Unidad Social Cristiana de Costa Rica y de la cual forma parte como Encargada de la Secretaria de Integración e Igualdad, la actual presidenta de la Juventud del PDC de Paraguay, Lic. Alba María Cristaldo.</p>
+          <br>
+          <figure><img src="../images/pdcmundo3.jpg" alt="" width="1169" height="610"/></figure> <br>
+          <figure><img src="../images/pdcmundo4.jpg" alt="" width="1169" height="610"/></figure> <br>
+          <figure><img src="../images/pdcmundo5.jpg" alt="" width="1169" height="610"/></figure>
         </div>
       </section>
 

@@ -1009,8 +1009,7 @@ html .button-primary-outline .badge {
 
 html .button-primary-outline-v2, html .button-primary-outline-v2:active, html .button-primary-outline-v2.active, html .button-primary-outline-v2:active:focus, html .button-primary-outline-v2.active:focus, html .button-primary-outline-v2:focus:active, html .button-primary-outline-v2:focus {
 	color: #fff;
-	background-color: transparent;
-	border-color: #cca876;
+	background-color: #07A00A;
 }
 
 .open > html .button-primary-outline-v2.dropdown-toggle, html .button-primary-outline-v2:hover {
