@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/fuentes.css">    
+    <link rel="icon" href="images/logito.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/fuentes.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -39,7 +39,7 @@
                   <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.png" alt="" width="100px"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
-                    <a href="#home" >Inicio</a>
+                    <a href="index.php">Inicio</a>
                     <div class="dropdown">
                       <button class="dropbtn">Nosotros 
                         <i class="fa fa-caret-down"></i>
@@ -69,7 +69,7 @@
                         <a href="#">Noticias</a>
                         <a href="#">Actividades</a>
                         <a href="#">Galeria</a>
-                        <a href="#">Documentos</a>
+                        <a href="prensa/documentos.php">Documentos</a>
                       </div>
                     </div> 
                     <a href="contactos.php" class="activo">Contacto</a>
@@ -91,51 +91,66 @@
         </div>
       </section>
 
-      <section class="section-60 section-md-top-90 section-md-bottom-100">
+      <section class="section-50 section-md-75 section-lg-100">
         <div class="container">
-          <div class="row row-50 justify-content-lg-between">
-            <div class="col-lg-5 col-xl-4">
-              <div class="inset-lg-right-15 inset-xl-right-0">
-                <div class="row row-30 row-md-40"  id="acordion">
-                  <div class="col-md-6 col-lg-12">
-                    
-                    <a data-toggle="collapse" href="#uno" onclick="mapa('asuncion');" data-parent= "#acordion"><h5>Asunción <i class="fa fa-caret-down"></i></h5></a>
-                    <address class="collapse contact-info collapse in" id="uno">
-                      <p class="text-uppercase">Francisco Dupuys (Ex quinta) 962 entre Montevideo y Colón</p>
-                      <dl class="list-terms-inline">
-                        <dt>Teléfono</dt>
-                        <dd><a class="link-secondary" href="#">+59521 420 434</a></dd>
-                      </dl>
-                      <dl class="list-terms-inline">
-                        <dt>Celular</dt>
-                        <dd><a class="link-secondary" href="https://wa.me/+595981212085" target="_blank">+595981 212 085</a></dd>
-                      </dl>
-                      <dl class="list-terms-inline">
-                        <dt>E-mail</dt>
-                        <dd><a class="link-primary" href="mailto:#">pdc.paraguay@gmail.com</a></dd>
-                      </dl>
-                    </address>
-                  </div>
-                  <div class="col-md-6 col-lg-12">
-                  <a data-toggle="collapse" href="#dos" onclick="mapa('capiata');" data-parent = "#acordion"><h5>Capiata <i class="fa fa-caret-down"></i></h5></a>
-                    <address class="collapse contact-info collapse" id="dos">
-                      <p class="text-uppercase">9870 ST VINCENT PLACE, GLASGOW, DC 45 FR 45</p>
-                      <dl class="list-terms-inline">
-                        <dt>Telephone</dt>
-                        <dd><a class="link-secondary" href="tel:#">+1 800 603 6035</a></dd>
-                      </dl>
-                      <dl class="list-terms-inline">
-                        <dt>E-mail</dt>
-                        <dd><a class="link-primary" href="mailto:#">mail@demolink.org</a></dd>
-                      </dl>
-                    </address>
+          <div class="row row-40" style="justify-content: center;">
+            <div class="col-md-6 col-lg-4 height-fill">
+              <article class="icon-box">
+                <div class="box-top">
+                  <div class="box-icon"><span class="novi-icon icon icon-primary icon-lg fa fa-whatsapp"></span></div>
+                  <div class="box-header">
+                    <h5><a href="https://wa.me/+595981212085" target="_blank">Whatsapp</a></h5>
                   </div>
                 </div>
-              </div>
+                <div class="divider bg-accent"></div>
+                <div class="box-body">
+                  <p>Puedes conectarte con nosotros ingresando a la app de Whatsapp.</p>
+                </div>
+              </article>
             </div>
-            <div class="col-lg-7 col-xl-6" id="mapa">
-                        
+            <div class="col-md-6 col-lg-4 height-fill">
+            <article class="icon-box">
+                <div class="box-top">
+                  <div class="box-icon"><span class="novi-icon icon icon-primary icon-lg fa fa-map-marker"></span></div>
+                  <div class="box-header">
+                    <h5><a href="https://goo.gl/maps/eoHi4vyQetJL4GY89" target="_blank">Ubicación</a></h5>
+                  </div>
+                </div>
+                <div class="divider bg-accent"></div>
+                <div class="box-body">
+                  <p>Francisco Dupuys (Ex quinta) 962 entre Montevideo y Colón</p>
+                </div>
+              </article>
             </div>
+            <div class="col-md-6 col-lg-4 height-fill">
+              <article class="icon-box">
+                <div class="box-top">
+                  <div class="box-icon"><span class="novi-icon icon icon-primary icon-lg fa-envelope-o"></span></div>
+                  <div class="box-header">
+                    <h5><a href="mailto:#">Correo</a></h5>
+                  </div>
+                </div>
+                <div class="divider bg-accent"></div>
+                <div class="box-body">
+                  <p>Enviarnos tus consultas y/o consultas al correo pdc.paraguay@gmail.com</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 height-fill">
+              <article class="icon-box">
+                <div class="box-top">
+                  <div class="box-icon"><span class="novi-icon icon icon-primary icon-lg material-icons-phone"></span></div>
+                  <div class="box-header">
+                    <h5><a href="#">Teléfono</a></h5>
+                  </div>
+                </div>
+                <div class="divider bg-accent"></div>
+                <div class="box-body">
+                  <p>También contamos con linea baja para que puedas contactarte con nosotros. +59521 420 434</p>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
 

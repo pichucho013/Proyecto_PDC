@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/logito.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/fuentes.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -39,7 +39,7 @@
                   <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.png" alt="" width="100px"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
-                    <a href="#home" >Inicio</a>
+                    <a href="index.php" class="activo" >Inicio</a>
                     <div class="dropdown">
                       <button class="dropbtn">Nosotros 
                         <i class="fa fa-caret-down"></i>
@@ -72,7 +72,7 @@
                         <a href="#">Documentos</a>
                       </div>
                     </div> 
-                    <a href="contactos.php" class="activo">Contacto</a>
+                    <a href="contactos.php">Contacto</a>
                     <a href="#" style="height: 57px;" class="icon" onclick="myFunction()">&#9776;</a>
                   </div>
               </div>

@@ -265,7 +265,7 @@ h1 a, h1 a:active, h1 a:focus, h2 a, h2 a:active, h2 a:focus, h3 a, h3 a:active,
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .h1 a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover, .h5 a:hover, .h6 a:hover, .h7 a:hover {
-	color: #cca876;
+	color: #4CAF50;
 }
 
 h1 > *, h2 > *, h3 > *, h4 > *, h5 > *, h6 > *, .h1 > *, .h2 > *, .h3 > *, .h4 > *, .h5 > *, .h6 > *, .h7 > * {
@@ -668,8 +668,8 @@ address {
 }
 
 .bg-ebony-clay {
-	background: #2b2f40;
-	fill: #2b2f40;
+	background: #255085;
+	fill: #255085;
 }
 
 .bg-ebony-clay.rd-parallax {
@@ -686,8 +686,8 @@ address {
 }
 
 .bg-accent {
-	background: #cca876;
-	fill: #cca876;
+	background: #4CAF50;
+	fill: #4CAF50;
 }
 
 .bg-gray-light {
@@ -1149,7 +1149,7 @@ html .button-silver-outline .badge {
 
 .page a.icon-bright-gray-filled, .page a.icon-bright-gray-filled:active, .page a.icon-bright-gray-filled:focus {
 	color: #fff;
-	background: #3d414e;
+	background: #006CB2;
 }
 
 .page a.icon-bright-gray-filled:hover {
@@ -4266,7 +4266,7 @@ blockquote cite {
 	position: absolute;
 	width: calc(100% - 35px);
 	height: calc(100% - 35px);
-	border: 1px solid #e5e7e9;
+	border: 1px solid #255085;
 	pointer-events: none;
 	transition: .33s all ease;
 }
@@ -4341,7 +4341,7 @@ blockquote cite {
 .icon-box.hover:before, .icon-box.hover:after, .icon-box:hover:before, .icon-box:hover:after {
 	width: 100%;
 	height: 100%;
-	border-color: #cca876;
+	border-color: #255085;
 }
 
 .icon-box.hover .box-top, .icon-box:hover .box-top {
@@ -14058,7 +14058,7 @@ html.boxed .rd-navbar--is-clone {
 
 .topnav {
   overflow: hidden;
-  background-color: #2B2F40;
+  background-color: #255085;
 }
 
 .topnav a {
@@ -14175,4 +14175,8 @@ html.boxed .rd-navbar--is-clone {
 		width: 48px;
 	}
 	
+}
+
+.opacidad:hover {
+	opacity: 0.5;
 }
