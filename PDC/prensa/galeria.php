@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Prensa - Documentos</title>
+    <title>Prensa - Galeria</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    
+    
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -68,8 +72,8 @@
                       <div class="dropdown-content">
                         <a href="#">Noticias</a>
                         <a href="#">Actividades</a>
-                        <a href="galeria.php">Galeria</a>
-                        <a href="documentos.php" class="activo">Documentos</a>
+                        <a href="galeria.php" class="activo">Galeria</a>
+                        <a href="documentos.php">Documentos</a>
                       </div>
                     </div> 
                     <a href="../contactos.php">Contacto</a>
@@ -82,72 +86,145 @@
         
       </header>
 
-      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner_documentos.jpg);">
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner_galeria.jpg);">
         <div class="container">
           <div class="page-title">
-            <h2>Documentos</h2>
+            <h2>Galeria de Imágenes</h2>
           </div>
         </div>
       </section>
 
-      <section class="section-35 section-md-50">
-        
+<!-- albunes miniaturas -->
+      <section class="section-35 section-md-50" style="background-color:#255085">
+      <h3 style="text-align:center; color:white">Álbumes</h3>
           <div id="row" class="row row-40" style="justify-content: space-evenly;">
-            <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
-                <a href="#resoluciones" onclick="mostrar('resoluciones')" class="opacidad">
-                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="" width="246" height="300"/>
-                  </figure>
-                  <div class="thumbnail-caption">
-                    <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Resoluciones</p>
-                  </div></a>
-            </div>
-            
-            <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
-                <a href="#" class="opacidad">
-                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="" width="246" height="300"/>
-                  </figure>
-                  <div class="thumbnail-caption">
-                    <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Leyes</p>
-                  </div></a>
-            </div>
-            
-            <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
-                <a href="#" class="opacidad">
-                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="" width="246" height="300"/>
-                  </figure>
-                  <div class="thumbnail-caption">
-                    <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Leyes</p>
-                  </div></a>
-            </div>
-
-            
           
+            <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center" id="carpeta">
+                <a href="#thumb_pdc" onclick="mostrar_galeria('PDC')" class="opacidad">
+                    <figure class="thumbnail-image"><img src="../files/galeria/PDC/portada.jpg" alt="" width="246" height="300"/>
+                  </figure>
+                  <div class="thumbnail-caption">
+                    <p class="text-header" style="background-color: #255085;text-align: center;color: white;">PDC</p>
+                  </div></a>
+            </div>
+            
+            <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center" id="carpeta">
+                <a href="#thumb_odca" onclick="mostrar_galeria('ODCA')" class="opacidad" >
+                    <figure class="thumbnail-image"><img src="../files/galeria/ODCA/ODCA.jpg" alt="" width="246" height="300"/>
+                  </figure>
+                  <div class="thumbnail-caption">
+                    <p class="text-header" style="background-color: #255085;text-align: center;color: white;">ODCA</p>
+                  </div></a>
+            </div> 
         </div>
       </section>
 
       
-      <div id="contenido" style="text-align: center;">
-      <h3 style="text-align:center;color:#9F9F9F" id="resoluciones">Resoluciones</h3>
-      <div style="text-align: left;width: 80%;margin: auto; margin-top:1%">
-      <h4>Resolución Nº 78</h4>
-      <!-- <a download href="../images/folder.png" >Descargar archivo desde aquí</a> -->
-        <iframe id="iframepdf" src="../files/documentos/resoluciones/resoluciones.pdf"width="100%" height="600px"></iframe>
-</div>  
-    </div>
-      <bR>
-        
+<!-- album completo pdc-->
+      <section class="fotos" style="width: 70%;margin: auto;" id="fotos_pdc">
 
-      
+      <!-- vista grande pdc -->
+		<div class="contenedora" style="background-color: #255085">
+
+            <div class="thumb_total" id="thumb_pdc">
+                <img src="../files/galeria/PDC/portada.jpg">
+
+            </div>
+        <div>
+
+    <!-- miniaturas pdc-->
+        <div class="contenedora" style>
+				<div class="thumb">
+					<a href="#thumb_total" onclick="galeria('../files/galeria/PDC/portada.jpg','pdc')" style="height: 100%">
+						<img src="../files/galeria/PDC/portada.jpg"style="height: 100%"> 
+					</a>
+                </div>
+                
+                <div class="thumb">
+                        <a href="#thumb_total" onclick="galeria('../files/galeria/PDC/2.jpg','pdc')">
+						<img src="../files/galeria/PDC/2.jpg">
+					</a>
+                </div>	
+                
+                <div class="thumb">
+                <a href="#thumb_total" onclick="galeria('../files/galeria/PDC/3.jpg','pdc')" style="height: 100%" >
+						<img src="../files/galeria/PDC/3.jpg" style="height:100%">
+					</a>
+                </div>	
+                
+                <div class="thumb">
+                <a href="#thumb_total" onclick="galeria('../files/galeria/PDC/4.jpg','pdc')" style="height: 100%" >
+						<img src="../files/galeria/PDC/4.jpg" style="height:100%">
+					</a>
+				</div>	
+		</div>
+    </section>
 
 
-      
 
-        <?php require('../view/footer.php'); ?>
+
+
+
+
+
+    <!-- album completo odca-->
+    <section class="fotos" style="display:none;width: 70%;margin: auto;" id="fotos_odca">
+
+<!-- vista grande odca -->
+  <div class="contenedora" style="background-color: #255085">
+
+      <div class="thumb_total" id="thumb_odca">
+          <img src="../files/galeria/ODCA/ODCA.jpg">
+
+      </div>
+  <div>
+
+<!-- miniaturas odca-->
+  <div class="contenedora" style>
+          <div class="thumb">
+              <a href="#thumb_total" onclick="galeria('../files/galeria/ODCA/ODCA.jpg','odca')" style="height: 100%">
+                  <img src="../files/galeria/ODCA/ODCA.jpg" style="height: 100%">
+              </a>
+          </div>
+          
+          <div class="thumb">
+                  <a href="#thumb_total" onclick="galeria('../files/galeria/ODCA/ODCA2.jpg','odca')">
+                  <img src="../files/galeria/ODCA/ODCA2.jpg">
+              </a>
+          </div>	
+          
+          <div class="thumb">
+          <a href="#thumb_total" onclick="galeria('../files/galeria/ODCA/ODCA3.jpg','odca')">
+                  <img src="../files/galeria/ODCA/ODCA3.jpg">
+              </a>
+          </div>	
+          
+          <div class="thumb">
+          <a href="#thumb_total" onclick="galeria('../files/galeria/ODCA/ODCA4.jpg','odca')">
+                  <img src="../files/galeria/ODCA/ODCA4.jpg">
+              </a>
+          </div>	
+  </div>
+</section>
+
+
+
+
+
+
+
+
+   
+    
+
+
+    <br><?php require('../view/footer.php'); ?>
 
     </div>
     <div class="snackbars" id="form-output-global"></div>
     <script src="../js/core.min.js"></script>
     <script src="../js/script.js"></script>
     <script src="../js/mostrar_documento.js"></script>
+    
   </body>
 </html>

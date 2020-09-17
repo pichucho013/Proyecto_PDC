@@ -12,7 +12,7 @@
                       <li>
                         <div class="unit unit-horizontal unit-spacing-xs align-items-center">
                           <div class="unit-left"><span class="novi-icon icon icon-xxs icon-primary fab fa-whatsapp"></span></div>
-                          <div class="unit-body"><a class="link-dusty-gray" href="https://wa.me/+595981212085" target="_blank">+59521 420 434</a></div>
+                          <div class="unit-body"><a class="link-dusty-gray" href="https://wa.me/+595981212085" target="_blank">+595981 212 085</a></div>
                         </div>
                       </li>
                       <li>

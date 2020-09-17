@@ -68,7 +68,7 @@
                       <div class="dropdown-content">
                         <a href="#">Noticias</a>
                         <a href="#">Actividades</a>
-                        <a href="#">Galeria</a>
+                        <a href="prensa/galeria.php">Galeria</a>
                         <a href="prensa/documentos.php">Documentos</a>
                       </div>
                     </div> 

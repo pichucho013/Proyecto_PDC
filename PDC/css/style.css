@@ -108,6 +108,7 @@ section {
 */
 .page-foot {
 	background-color: #000;
+	
 }
 
 .page-foot .h7 + * {
@@ -14180,3 +14181,10 @@ html.boxed .rd-navbar--is-clone {
 .opacidad:hover {
 	opacity: 0.5;
 }
+
+@media (max-width: 426px) {
+	#carpeta {
+		width: 120px;
+	}
+}
+
