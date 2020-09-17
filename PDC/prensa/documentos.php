@@ -39,19 +39,19 @@
                   <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
-                    <a href="../index.php">Inicio</a>
+                    <a href="../index.php" >Inicio</a>
                     <div class="dropdown">
                       <button class="dropbtn">Nosotros 
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Quienes Somos</a>
+                        <a href="../nosotros/quienesomos.php">Quienes Somos</a>
                         <a href="#">Autoridades</a>
                         <a href="#">Organigrama</a>
-                        <a href="#">PDC en el mundo</a>
+                        <a href="../nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
-                    <a href="#news">Estatuto</a>
+                    <a href="../estatuto.php">Estatuto</a>
                     <div class="dropdown">
                       <button class="dropbtn">Electoral 
                         <i class="fa fa-caret-down"></i>
@@ -72,7 +72,7 @@
                         <a href="documentos.php" class="activo">Documentos</a>
                       </div>
                     </div> 
-                    <a href="../contactos.php">Contacto</a>
+                    <a href="../contactos.php" >Contacto</a>
                     <a href="#" style="height: 57px;" class="icon" onclick="myFunction()">&#9776;</a>
                   </div>
               </div>
@@ -132,7 +132,7 @@
       <h4>Resolución Nº 78</h4>
       <!-- <a download href="../images/folder.png" >Descargar archivo desde aquí</a> -->
         <iframe id="iframepdf" src="../files/documentos/resoluciones/resoluciones.pdf"width="100%" height="600px"></iframe>
-</div>  
+      </div>  
     </div>
       <bR>
         
