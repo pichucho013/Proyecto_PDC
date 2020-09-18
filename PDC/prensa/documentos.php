@@ -132,8 +132,8 @@
       <h4>Resolución Nº 78</h4>
       <!-- <a download href="../images/folder.png" >Descargar archivo desde aquí</a> -->
         <iframe id="iframepdf" src="../files/documentos/resoluciones/resoluciones.pdf"width="100%" height="600px"></iframe>
-</div>  
-    </div>
+        </div>  
+      </div>
       <bR>
         
 

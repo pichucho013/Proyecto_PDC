@@ -69,7 +69,7 @@
                         <a href="#">Noticias</a>
                         <a href="#">Actividades</a>
                         <a href="#">Galeria</a>
-                        <a href="#">Documentos</a>
+                        <a href="prensa/documentos.php">Documentos</a>
                       </div>
                     </div> 
                     <a href="contactos.php">Contacto</a>
@@ -79,10 +79,9 @@
             </div>
           </nav>
         </div>
-
         
       </header>
-
+      
       <section>
         <div class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="5500" data-simulate-touch="true">
           <div class="swiper-wrapper text-center">
