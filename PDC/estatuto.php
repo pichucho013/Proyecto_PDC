@@ -84,7 +84,7 @@
       <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(images/banner-estatuto.jpg);">
         <div class="container">
           <div class="page-title">
-            <h2>Estatuto del PDC</h2>
+            <h2>Estatuto del PDC PY</h2>
           </div>
         </div>
       </section>
