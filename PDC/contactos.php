@@ -45,13 +45,13 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Quienes Somos</a>
+                        <a href="nosotros/quienesomos.php">Quienes Somos</a>
                         <a href="#">Autoridades</a>
                         <a href="#">Organigrama</a>
-                        <a href="#">PDC en el mundo</a>
+                        <a href="nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
-                    <a href="#news">Estatuto</a>
+                    <a href="estatuto.php">Estatuto</a>
                     <div class="dropdown">
                       <button class="dropbtn">Electoral 
                         <i class="fa fa-caret-down"></i>
