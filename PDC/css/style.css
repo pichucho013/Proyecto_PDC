@@ -14181,10 +14181,18 @@ html.boxed .rd-navbar--is-clone {
 .opacidad:hover {
 	opacity: 0.5;
 }
-
+#row1{
+	width: 70%;margin: auto;
+}
 @media (max-width: 426px) {
 	#carpeta {
 		width: 120px;
+	}
+	#row1{
+		width: 100%;
+	}
+	#album_pdc{
+		text-align: center;
 	}
 }
 

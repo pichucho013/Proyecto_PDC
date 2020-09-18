@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/estilos.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="fresco/dist/js/fresco.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="fresco/dist/css/fresco.css"/>
     
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -21,19 +23,19 @@
 		<![endif]-->
   </head>
   <body>
-    <div class="preloader">
+    <!-- <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
           <div class="cssload-speeding-wheel"> </div>
         </div>
         <p>Cargando...</p>
       </div>
-    </div>
+    </div> -->
     <div class="page">
     <header class="page-head">
         
         <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="53px" data-xl-stick-up-offset="53px" data-xxl-stick-up-offset="53px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="53px" data-xl-stick-up-offset="53px" data-xxl-stick-up-offset="53px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true" style="position:relative">
             <div class="rd-navbar-inner">
 
             <?php require('../view/header.php'); ?>
@@ -100,7 +102,7 @@
           <div id="row" class="row row-40" style="justify-content: space-evenly;">
           
             <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center" id="carpeta">
-                <a href="#thumb_pdc" onclick="mostrar_galeria('PDC')" class="opacidad">
+                <a href="#album_pdc" onclick="mostrar_galeria('PDC')" class="opacidad">
                     <figure class="thumbnail-image"><img src="../files/galeria/PDC/portada.jpg" alt="" width="246" height="300"/>
                   </figure>
                   <div class="thumbnail-caption">
@@ -109,8 +111,8 @@
             </div>
             
             <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center" id="carpeta">
-                <a href="#thumb_odca" onclick="mostrar_galeria('ODCA')" class="opacidad" >
-                    <figure class="thumbnail-image"><img src="../files/galeria/ODCA/ODCA.jpg" alt="" width="246" height="300"/>
+                <a href="#album_odca" onclick="mostrar_galeria('ODCA')" class="opacidad" >
+                    <figure class="thumbnail-image"><img src="../files/galeria/ODCA/1.jpg" alt="" width="246" height="300"/>
                   </figure>
                   <div class="thumbnail-caption">
                     <p class="text-header" style="background-color: #255085;text-align: center;color: white;">ODCA</p>
@@ -120,103 +122,90 @@
       </section>
 
       
-<!-- album completo pdc-->
-      <section class="fotos" style="width: 70%;margin: auto;" id="fotos_pdc">
+  <section class="section-35 section-md-50" id="aca">
+    <div id="row1" class="row row-40" >
+      <div id="fotos_pdc">
+        <h4 id="album_pdc" style="color:#9f9f9f">Álbum PDC</h4>
+        <div class="grid-gallery">
 
-      <!-- vista grande pdc -->
-		<div class="contenedora" style="background-color: #255085">
+            <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/portada.jpg">
+                <img class="grid-gallery__image" src="../files/galeria/PDC/portada.jpg">
+            </a>
 
-            <div class="thumb_total" id="thumb_pdc">
-                <img src="../files/galeria/PDC/portada.jpg">
+            <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/2.jpg">
+                <img class="grid-gallery__image" src="../files/galeria/PDC/2.jpg">
+            </a>
+            
+            <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/3.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/PDC/3.jpg">
+            </a>
 
-            </div>
-        <div>
+            <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/4.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/PDC/4.jpg">
+            </a>
 
-    <!-- miniaturas pdc-->
-        <div class="contenedora" style>
-				<div class="thumb">
-					<a href="#thumb_total" onclick="galeria('../files/galeria/PDC/portada.jpg','pdc')" style="height: 100%">
-						<img src="../files/galeria/PDC/portada.jpg"style="height: 100%"> 
-					</a>
-                </div>
-                
-                <div class="thumb">
-                        <a href="#thumb_total" onclick="galeria('../files/galeria/PDC/2.jpg','pdc')">
-						<img src="../files/galeria/PDC/2.jpg">
-					</a>
-                </div>	
-                
-                <div class="thumb">
-                <a href="#thumb_total" onclick="galeria('../files/galeria/PDC/3.jpg','pdc')" style="height: 100%" >
-						<img src="../files/galeria/PDC/3.jpg" style="height:100%">
-					</a>
-                </div>	
-                
-                <div class="thumb">
-                <a href="#thumb_total" onclick="galeria('../files/galeria/PDC/4.jpg','pdc')" style="height: 100%" >
-						<img src="../files/galeria/PDC/4.jpg" style="height:100%">
-					</a>
-				</div>	
-		</div>
-    </section>
+            <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/5.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/PDC/5.jpg">
+            </a>
 
+            <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/6.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/PDC/6.jpg">
+            </a>
 
+            <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/7.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/PDC/7.jpg">
+            </a>
 
+            <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/8.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/PDC/8.jpg">
+            </a>
 
-
-
-
-
-    <!-- album completo odca-->
-    <section class="fotos" style="display:none;width: 70%;margin: auto;" id="fotos_odca">
-
-<!-- vista grande odca -->
-  <div class="contenedora" style="background-color: #255085">
-
-      <div class="thumb_total" id="thumb_odca">
-          <img src="../files/galeria/ODCA/ODCA.jpg">
-
+            <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/9.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/PDC/9.jpg">
+            </a>
+        </div>
       </div>
-  <div>
-
-<!-- miniaturas odca-->
-  <div class="contenedora" style>
-          <div class="thumb">
-              <a href="#thumb_total" onclick="galeria('../files/galeria/ODCA/ODCA.jpg','odca')" style="height: 100%">
-                  <img src="../files/galeria/ODCA/ODCA.jpg" style="height: 100%">
-              </a>
-          </div>
-          
-          <div class="thumb">
-                  <a href="#thumb_total" onclick="galeria('../files/galeria/ODCA/ODCA2.jpg','odca')">
-                  <img src="../files/galeria/ODCA/ODCA2.jpg">
-              </a>
-          </div>	
-          
-          <div class="thumb">
-          <a href="#thumb_total" onclick="galeria('../files/galeria/ODCA/ODCA3.jpg','odca')">
-                  <img src="../files/galeria/ODCA/ODCA3.jpg">
-              </a>
-          </div>	
-          
-          <div class="thumb">
-          <a href="#thumb_total" onclick="galeria('../files/galeria/ODCA/ODCA4.jpg','odca')">
-                  <img src="../files/galeria/ODCA/ODCA4.jpg">
-              </a>
-          </div>	
-  </div>
-</section>
-
-
-
-
-
-
-
-
-   
     
 
+      <div id="fotos_odca" style="display:none">
+      <h4 id="album_odca"style="color:#9f9f9f">Álbum ODCA</h4>
+        <div class="grid-gallery">
+            <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/1.jpg">
+                <img class="grid-gallery__image" src="../files/galeria/ODCA/1.jpg">
+            </a>
+
+            <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/2.jpg">
+                <img class="grid-gallery__image" src="../files/galeria/ODCA/2.jpg">
+            </a>
+
+            <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/4.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/ODCA/4.jpg">
+            </a>
+            <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/3.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/ODCA/3.jpg">
+            </a>
+            <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/5.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/ODCA/5.jpg">
+            </a>
+            <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/6.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/ODCA/6.jpg">
+            </a>
+            <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/7.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/ODCA/7.jpg">
+            </a>
+            <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/8.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/ODCA/8.jpg">
+            </a>
+            <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/9.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/ODCA/9.jpg">
+            </a>
+            <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/10.jpg">
+                    <img class="grid-gallery__image" src="../files/galeria/ODCA/10.jpg">
+            </a>
+        </div>
+      <div>
+    </div>
+  </section>
 
     <br><?php require('../view/footer.php'); ?>
 
