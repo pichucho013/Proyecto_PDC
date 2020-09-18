@@ -1007,14 +1007,14 @@ html .button-primary-outline .badge {
 
 html .button-primary-outline-v2, html .button-primary-outline-v2:active, html .button-primary-outline-v2.active, html .button-primary-outline-v2:active:focus, html .button-primary-outline-v2.active:focus, html .button-primary-outline-v2:focus:active, html .button-primary-outline-v2:focus {
 	color: #fff;
-	background-color: transparent;
-	border-color: #cca876;
+	background-color: #4CAF50;
+	border-color: #4CAF50;
 }
 
 .open > html .button-primary-outline-v2.dropdown-toggle, html .button-primary-outline-v2:hover {
 	color: #fff;
-	background-color: #cca876;
-	border-color: #cca876;
+	background-color: #73D673;
+	border-color: #73D673;
 }
 
 html .button-primary-outline-v2.disabled, html .button-primary-outline-v2[disabled],
@@ -14181,10 +14181,18 @@ html.boxed .rd-navbar--is-clone {
 .opacidad:hover {
 	opacity: 0.5;
 }
-
+#row1{
+	width: 70%;margin: auto;
+}
 @media (max-width: 426px) {
 	#carpeta {
 		width: 120px;
+	}
+	#row1{
+		width: 100%;
+	}
+	#album_pdc{
+		text-align: center;
 	}
 }
 

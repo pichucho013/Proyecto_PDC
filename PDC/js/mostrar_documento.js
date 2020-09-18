@@ -25,18 +25,18 @@ function mostrar_galeria(que_galeria){
     }
 }
 
-function galeria(ruta, quien){
-    if(quien == 'pdc'){
-        pdc_foto.innerHTML = `<img src="${ruta}">`
+function galeria(ruta){
+
         Swal.fire({
             imageUrl: ruta,
             width: 800,
             imageWidth: 700,
             confirmButtonText: 'Volver',
           })
-    }else if(quien == 'odca'){
-        odca_foto.innerHTML = `<img src="${ruta}">`
-    }
+
     
     
 }
+
+
+    
