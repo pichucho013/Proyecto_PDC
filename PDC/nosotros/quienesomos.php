@@ -94,7 +94,8 @@
           <h3>NUESTRA HISTORIA</h3>
           <figure><img src="images/typography-1-1169x610.jpg" alt="" width="1169" height="610"/>
           </figure>
-          <p>Nace como Movimiento Social Democrata Cristiano el 15 de
+            <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
+              <p>Nace como Movimiento Social Democrata Cristiano el 15 de
 mayo de 1960, en plenadictadura,en la carpinteria delColegio
 Salesianito de ASuncion, mediante la convergencia de
 organizaciones sociales tales como la Accion Catolica, la
@@ -111,12 +112,14 @@ reconocimiento. En 1989, despuesdelgolpede Estado, recibe el
 reconocimiento partidario, el
 6 de marzo,
 a traves de la Junta Electoral Central</p>
+          </div>
         </div>
         <div class="container">
           <h3>¿QUE ES EL PARTIDO DEMOCRATA CRISTIANO?</h3>
           <figure><img src="images/typography-1-1169x610.jpg" alt="" width="1169" height="610"/>
           </figure>
-          <p>Es una agrupacion de hombres y mujeres libres, que 5e
+            <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
+              <p>Es una agrupacion de hombres y mujeres libres, que 5e
 unen en torno a un proyecto, a un programay a una organizacion
 politica, destinada a la construccion de una Sociedad en
 progreso continuo. Piensa y actua en funcion de los ejes
@@ -132,7 +135,7 @@ reclamosde los mas debiles y necesitados.</p>
           <div class="row row-40">
             <div class="col-md-6">
               <h3>Visión</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
+              <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
                 <p>Ser una organizacion politica, con principios y valores
 democratas-cristianos, formadora de ciudadania comprometida
 en politicas publicas dtiles para la Patria, a fin de lograr el
@@ -141,7 +144,7 @@ Bienestar Espiritual, EconomicoySocial del Paraguay.</p>
             </div>
             <div class="col-md-6">
               <h3>Misión</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
+              <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
                 <p>Intervenir activamente en las politicas piiblicas con lideres
 honestos, capaces y patriotas, para lograr el Bienestar
 Espiritual, EconomicoySocial del Paraguay.</p>
@@ -149,7 +152,7 @@ Espiritual, EconomicoySocial del Paraguay.</p>
             </div>
             <div class="col-md-6">
               <h3>Objetivo General</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
+              <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
                 <p>Fortalecimientodela estructura partidaria, capacitacion
 continua a los afitiados y a los militantes en los principios
 ideologicos socialcristianos, y en promover politicas pliblicas
@@ -162,7 +165,7 @@ Paraguay.
             </div>
             <div class="col-md-6">
               <h3>Objetivos Especificos</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
+              <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
                 <p>Trabajar para el fortalecimiento de los organismos
 partidarios en todos los sectores y niveles, con la adhesion
 permanente de nuevos afiliados. Capacitar a los afiliados y

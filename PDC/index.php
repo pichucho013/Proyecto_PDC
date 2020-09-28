@@ -20,9 +20,10 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> </div>
+          <div class=""> 
+            <img class="reboteIn" src=" images/logo.png" width="80" height="80">
+          </div>
         </div>
-        <p>Cargando...</p>
       </div>
     </div>
     <div class="page">
@@ -46,8 +47,8 @@
                       </button>
                       <div class="dropdown-content">
                         <a href="nosotros/quienesomos.php">Quienes Somos</a>
-                        <a href="#">Autoridades</a>
-                        <a href="#">Organigrama</a>
+                        <a href="nosotros/autoridades.php">Autoridades</a>
+                        <a href="nosotros/organigrama.php">Organigrama</a>
                         <a href="nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
@@ -92,7 +93,6 @@
                   <div class="row justify-content-md-center">
                     <div class="col-md-11 col-lg-10 col-xl-9">
                       <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
-                        <h3 class="medium text-primary">With Us</h3>
                       </div>
                       <h1 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">Partido Democrata Cristiano Paraguay</h1>
                       <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">Texto del Slogan del partdido PDC .</p>
@@ -101,17 +101,16 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide" data-slide-bg="images/home-slider-slide-2.jpg">
+            <div class="swiper-slide" data-slide-bg="images/registro_civico.jpg">
               <div class="swiper-slide-caption text-center">
                 <div class="container">
                   <div class="row justify-content-md-center">
                     <div class="col-md-11 col-lg-10 col-xl-9">
                       <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
-                        <h3 class="medium text-primary">We Off</h3>
                       </div>
-                      <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">Affordable and Effective Legal Help</h2>
-                      <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">Our expert team of attorneys and consultants will be glad to provide necessary legal assistance.</p>
-                      <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="#">Request a Free Consultation</a></div>
+                      <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">REGISTRO CÍVICO PERMANENTE</h2>
+                      <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">Consulte su Registro Cívico Permanente aquí</p>
+                      <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="https://rcp.tsje.gov.py/">Click aquí</a></div>
                     </div>
                   </div>
                 </div>
@@ -119,18 +118,6 @@
             </div>
             <div class="swiper-slide" data-slide-bg="images/home-slider-slide-3.jpg">
               <div class="swiper-slide-caption text-center">
-                <div class="container">
-                  <div class="row justify-content-md-center">
-                    <div class="col-md-11 col-lg-10 col-xl-9">
-                      <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
-                        <h3 class="medium text-primary">With Our Services</h3>
-                      </div>
-                      <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">You Will Get Extensive Legal Support</h2>
-                      <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">We have years of experience in providing legal help in various spheres of law.</p>
-                      <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="#">Request a Free Consultation</a></div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -230,9 +217,9 @@
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@ejemplo.org</a></div>
                   </div>
                   <div class="thumbnail-caption">
-                    <p class="text-header"><a href="#">Maria Laura</a></p>
+                    <p class="text-header"><a href="#">Agustín Ortiz</a></p>
                     <div class="divider divider-md bg-teak"></div>
-                    <p class="text-caption">Viceprecidenta</p>
+                    <p class="text-caption">Viceprecidente 2do</p>
                   </div>
                 </div>
               </div>
@@ -247,9 +234,9 @@
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@ejemplo.org</a></div>
                   </div>
                   <div class="thumbnail-caption">
-                    <p class="text-header"><a href="#">Juan Perez</a></p>
+                    <p class="text-header"><a href="#">Alba Estela Espinola</a></p>
                     <div class="divider divider-md bg-teak"></div>
-                    <p class="text-caption">Tesorero</p>
+                    <p class="text-caption">Junta Nacional</p>
                   </div>
                 </div>
               </div>
@@ -257,16 +244,16 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image"><img src="images/team-11-246x300.jpg" alt="" width="246" height="300"/>
+                  <figure class="thumbnail-image "><img src="images/Silvano_galeano.jpg" alt="" style="width: 100%; height: 100%" />
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+595 982–384 255</a></div>
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@ejemplo.org</a></div>
                   </div>
                   <div class="thumbnail-caption">
-                    <p class="text-header"><a href="#">Luis Miguel</a></p>
+                    <p class="text-header"><a href="#">Silvano Galeano</a></p>
                     <div class="divider divider-md bg-teak"></div>
-                    <p class="text-caption">Recursos humanos</p>
+                    <p class="text-caption">Tesorero</p>
                   </div>
                 </div>
               </div>
@@ -276,7 +263,7 @@
                 <div class="block-number">06</div>
                 <h3 class="text-normal">Autoridades</h3>
                 <p class="h5 h5-smaller text-style-4">del PDC</p>
-                <p>Texto relacionado a la seccion de Autoridades con el fin de introducir a la dicha seccion(clara concisa).</p><a class="link link-group link-group-animated link-bold link-secondary" href="#"><span>Read more</span><span class="novi-icon icon icon-xxs icon-primary fa fa-angle-right"></span></a>
+                <p>Texto relacionado a la seccion de Autoridades con el fin de introducir a la dicha seccion(clara concisa).</p><a class="link link-group link-group-animated link-bold link-secondary" href="#"><span>Ver mas</span><span class="novi-icon icon icon-xxs icon-primary fa fa-angle-right"></span></a>
               </div>
             </div>
           </div>
@@ -380,5 +367,6 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+  
   </body>
 </html>
