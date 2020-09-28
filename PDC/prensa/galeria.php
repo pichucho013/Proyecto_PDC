@@ -26,16 +26,15 @@
     <!-- <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> </div>
+          <div class="cssload-speeding-wheel"><img src="../images/logo.png" alt=""> </div>
         </div>
-        <p>Cargando...</p>
       </div>
     </div> -->
     <div class="page">
     <header class="page-head">
         
         <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="53px" data-xl-stick-up-offset="53px" data-xxl-stick-up-offset="53px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true" style="position:relative">
+          <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="53px" data-xl-stick-up-offset="53px" data-xxl-stick-up-offset="53px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
             <div class="rd-navbar-inner">
 
             <?php require('../view/header.php'); ?>
@@ -52,7 +51,7 @@
                       </button>
                       <div class="dropdown-content">
                         <a href="../nosotros/quienesomos.php">Quienes Somos</a>
-                        <a href="#">Autoridades</a>
+                        <a href="../nosotros/autoridades.php">Autoridades</a>
                         <a href="#">Organigrama</a>
                         <a href="../nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
@@ -63,7 +62,7 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Sala Electoral</a>
+                        <a href="../electoral/sala_electoral.php">Sala Electoral</a>
                         <a href="#">Candidatos</a>
                       </div>
                     </div>
@@ -88,7 +87,7 @@
         
       </header>
 
-      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner_galeria.jpg);">
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner_galeria.jpg)">
         <div class="container">
           <div class="page-title">
             <h2>Galeria de Imágenes</h2>
@@ -102,7 +101,7 @@
           <div id="row" class="row row-40" style="justify-content: space-evenly;">
           
             <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center" id="carpeta">
-                <a href="#album_pdc" onclick="mostrar_galeria('PDC')" class="opacidad">
+                <a href="#aca" onclick="mostrar_galeria('PDC')" class="opacidad">
                     <figure class="thumbnail-image"><img src="../files/galeria/PDC/portada.jpg" alt="" width="246" height="300"/>
                   </figure>
                   <div class="thumbnail-caption">
@@ -111,7 +110,7 @@
             </div>
             
             <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center" id="carpeta">
-                <a href="#album_odca" onclick="mostrar_galeria('ODCA')" class="opacidad" >
+                <a href="#aca" onclick="mostrar_galeria('ODCA')" class="opacidad" >
                     <figure class="thumbnail-image"><img src="../files/galeria/ODCA/1.jpg" alt="" width="246" height="300"/>
                   </figure>
                   <div class="thumbnail-caption">

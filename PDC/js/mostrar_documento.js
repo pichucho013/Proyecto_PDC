@@ -40,3 +40,19 @@ function galeria(ruta, quien){
     
     
 }
+
+var tsje = document.getElementById('contenido_tsje');
+var cronograma = document.getElementById('contenido_cronograma');
+
+
+function sala_mostrar(que_pdf){
+    if(que_pdf == 'tsje'){
+        cronograma.style.display='none';
+        tsje.style.display='block';
+
+    }if(que_pdf == 'cronograma'){
+        tsje.style.display='none';
+        cronograma.style.display='block';
+    }
+
+}

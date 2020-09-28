@@ -20,9 +20,8 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> </div>
+          <div class="cssload-speeding-wheel"> <img src="../images/logo.png" alt=""></div>
         </div>
-        <p>Cargando...</p>
       </div>
     </div>
     <div class="page">
@@ -46,7 +45,7 @@
                       </button>
                       <div class="dropdown-content">
                         <a href="quienesomos.php" class="activo">Quienes Somos</a>
-                        <a href="#">Autoridades</a>
+                        <a href="autoridades.php">Autoridades</a>
                         <a href="#">Organigrama</a>
                         <a href="pdcmundo.php">PDC en el mundo</a>
                       </div>
@@ -57,7 +56,7 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Sala Electoral</a>
+                        <a href="../electoral/sala_electoral.php">Sala Electoral</a>
                         <a href="#">Candidatos</a>
                       </div>
                     </div>
@@ -95,35 +94,35 @@
           <figure><img src="images/typography-1-1169x610.jpg" alt="" width="1169" height="610"/>
           </figure>
           <p>Nace como Movimiento Social Democrata Cristiano el 15 de
-mayo de 1960, en plenadictadura,en la carpinteria delColegio
-Salesianito de ASuncion, mediante la convergencia de
-organizaciones sociales tales como la Accion Catolica, la
-Juventud Universitaria Catolica, la Juventud Obrera Catdlica,
-organizaciones campesinas, obreras, estudiantes,
-profesionales, empresariales.</p>
-<p>En 1969 5e pide formalmente su reconocimiento como Partido
-Democrata Cristiano, pero es rechazado sistematicamente por
-el regimendictatorial; entoncesel partido decide recurrir
-a la
-Corte Suprema de Justicia. EL juicio dura 17 afios, hasta que
-finalmente, la Corte se expide en el afio 1987, negando el
-reconocimiento. En 1989, despuesdelgolpede Estado, recibe el
-reconocimiento partidario, el
-6 de marzo,
-a traves de la Junta Electoral Central</p>
+          mayo de 1960, en plenadictadura,en la carpinteria delColegio
+          Salesianito de ASuncion, mediante la convergencia de
+          organizaciones sociales tales como la Accion Catolica, la
+          Juventud Universitaria Catolica, la Juventud Obrera Catdlica,
+          organizaciones campesinas, obreras, estudiantes,
+          profesionales, empresariales.</p>
+          <p>En 1969 5e pide formalmente su reconocimiento como Partido
+          Democrata Cristiano, pero es rechazado sistematicamente por
+          el regimendictatorial; entoncesel partido decide recurrir
+          a la
+          Corte Suprema de Justicia. EL juicio dura 17 afios, hasta que
+          finalmente, la Corte se expide en el afio 1987, negando el
+          reconocimiento. En 1989, despuesdelgolpede Estado, recibe el
+          reconocimiento partidario, el
+          6 de marzo,
+          a traves de la Junta Electoral Central</p>
         </div>
         <div class="container">
           <h3>¿QUE ES EL PARTIDO DEMOCRATA CRISTIANO?</h3>
           <figure><img src="images/typography-1-1169x610.jpg" alt="" width="1169" height="610"/>
           </figure>
           <p>Es una agrupacion de hombres y mujeres libres, que 5e
-unen en torno a un proyecto, a un programay a una organizacion
-politica, destinada a la construccion de una Sociedad en
-progreso continuo. Piensa y actua en funcion de los ejes
-centrales de la democracia participativa, la economia social de
-mercadoy ei humanismocristiano.
-Su fortaleza fue, es y sera Siempre la sensibilidad hacia los
-reclamosde los mas debiles y necesitados.</p>
+            unen en torno a un proyecto, a un programay a una organizacion
+            politica, destinada a la construccion de una Sociedad en
+            progreso continuo. Piensa y actua en funcion de los ejes
+            centrales de la democracia participativa, la economia social de
+            mercadoy ei humanismocristiano.
+            Su fortaleza fue, es y sera Siempre la sensibilidad hacia los
+            reclamosde los mas debiles y necesitados.</p>
         </div>
       </section>
 
@@ -134,29 +133,29 @@ reclamosde los mas debiles y necesitados.</p>
               <h3>Visión</h3>
               <div class="inset-lg-right-40 inset-xl-right-70">
                 <p>Ser una organizacion politica, con principios y valores
-democratas-cristianos, formadora de ciudadania comprometida
-en politicas publicas dtiles para la Patria, a fin de lograr el
-Bienestar Espiritual, EconomicoySocial del Paraguay.</p>
+                  democratas-cristianos, formadora de ciudadania comprometida
+                  en politicas publicas dtiles para la Patria, a fin de lograr el
+                  Bienestar Espiritual, EconomicoySocial del Paraguay.</p>
               </div>
             </div>
             <div class="col-md-6">
               <h3>Misión</h3>
               <div class="inset-lg-right-40 inset-xl-right-70">
                 <p>Intervenir activamente en las politicas piiblicas con lideres
-honestos, capaces y patriotas, para lograr el Bienestar
-Espiritual, EconomicoySocial del Paraguay.</p>
+                  honestos, capaces y patriotas, para lograr el Bienestar
+                  Espiritual, EconomicoySocial del Paraguay.</p>
               </div>
             </div>
             <div class="col-md-6">
               <h3>Objetivo General</h3>
               <div class="inset-lg-right-40 inset-xl-right-70">
                 <p>Fortalecimientodela estructura partidaria, capacitacion
-continua a los afitiados y a los militantes en los principios
-ideologicos socialcristianos, y en promover politicas pliblicas
-con el propesito de participar en las elecciones nacionales,
-departamentales y municipales, para ocupar espacios politicos,
-a fin de lograr el Bienestar Espiritual, Economico y Social del
-Paraguay.
+                    continua a los afitiados y a los militantes en los principios
+                    ideologicos socialcristianos, y en promover politicas pliblicas
+                    con el propesito de participar en las elecciones nacionales,
+                    departamentales y municipales, para ocupar espacios politicos,
+                    a fin de lograr el Bienestar Espiritual, Economico y Social del
+                    Paraguay.
 </p>
               </div>
             </div>
@@ -164,10 +163,10 @@ Paraguay.
               <h3>Objetivos Especificos</h3>
               <div class="inset-lg-right-40 inset-xl-right-70">
                 <p>Trabajar para el fortalecimiento de los organismos
-partidarios en todos los sectores y niveles, con la adhesion
-permanente de nuevos afiliados. Capacitar a los afiliados y
-Simpatizantes en nuestros principios ideologicosy en politicas
-pUblicas de bien comin.</p>
+                  partidarios en todos los sectores y niveles, con la adhesion
+                  permanente de nuevos afiliados. Capacitar a los afiliados y
+                  Simpatizantes en nuestros principios ideologicosy en politicas
+                  pUblicas de bien comin.</p>
               </div>
             </div>
           </div>

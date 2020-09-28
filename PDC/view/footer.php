@@ -8,7 +8,7 @@
                   <ul class="list-inline list-inline-reset">
                     <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-facebook" href="https://www.facebook.com/Partido-Dem%C3%B3crata-Cristiano-Paraguay-111195607373564/" target="_blank"></a></li>
                     <!-- <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-twitter" href="#"></a></li> -->
-                    <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-youtube" href="#"></a></li>
+                    <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-youtube" href="https://www.youtube.com/channel/UCQlRSiCKtDPjiA39i1bJxlw" target="_blanck"></a></li>
                   </ul>
                 </div>
               </div>
