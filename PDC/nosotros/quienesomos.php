@@ -131,7 +131,7 @@
           <div class="row row-40">
             <div class="col-md-6">
               <h3>Visión</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
+              <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
                 <p>Ser una organizacion politica, con principios y valores
                   democratas-cristianos, formadora de ciudadania comprometida
                   en politicas publicas dtiles para la Patria, a fin de lograr el
@@ -140,7 +140,7 @@
             </div>
             <div class="col-md-6">
               <h3>Misión</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
+              <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
                 <p>Intervenir activamente en las politicas piiblicas con lideres
                   honestos, capaces y patriotas, para lograr el Bienestar
                   Espiritual, EconomicoySocial del Paraguay.</p>
@@ -148,7 +148,7 @@
             </div>
             <div class="col-md-6">
               <h3>Objetivo General</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
+              <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
                 <p>Fortalecimientodela estructura partidaria, capacitacion
                     continua a los afitiados y a los militantes en los principios
                     ideologicos socialcristianos, y en promover politicas pliblicas
@@ -161,7 +161,7 @@
             </div>
             <div class="col-md-6">
               <h3>Objetivos Especificos</h3>
-              <div class="inset-lg-right-40 inset-xl-right-70">
+              <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
                 <p>Trabajar para el fortalecimiento de los organismos
                   partidarios en todos los sectores y niveles, con la adhesion
                   permanente de nuevos afiliados. Capacitar a los afiliados y

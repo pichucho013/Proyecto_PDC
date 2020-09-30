@@ -2,11 +2,13 @@
 <html class="wide wow-animation" lang="en">
   <head>
     <title>Nosotros - Autoridades</title>
+
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="../images/logito.ico" type="image/x-icon">
+
     <link rel="stylesheet" type="text/css" href="../css/fuentes.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
@@ -22,6 +24,7 @@
         <div class="cssload-container">
           <div class="cssload-speeding-wheel"> <img src="../images/logo.png" alt=""></div>
         </div>
+
       </div>
     </div>
     <div class="page">
@@ -79,7 +82,6 @@
           </nav>
         </div>
       </header>
-
       <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner-autoridades.png)">
         <div class="container">
           <div class="page-title">
@@ -157,7 +159,6 @@
 
 
     <?php require('../view/footer.php'); ?>
-    
     <div class="snackbars" id="form-output-global"></div>
     <script src="../js/core.min.js"></script>
     <script src="../js/script.js"></script>
