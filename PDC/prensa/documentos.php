@@ -20,9 +20,8 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> </div>
+          <div class="cssload-speeding-wheel"> <img src="../images/logo.png" alt=""></div>
         </div>
-        <p>Cargando...</p>
       </div>
     </div>
     <div class="page">
@@ -36,7 +35,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -46,7 +45,7 @@
                       </button>
                       <div class="dropdown-content">
                         <a href="../nosotros/quienesomos.php">Quienes Somos</a>
-                        <a href="#">Autoridades</a>
+                        <a href="../nosotros/autoridades.php">Autoridades</a>
                         <a href="#">Organigrama</a>
                         <a href="../nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
@@ -57,7 +56,7 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Sala Electoral</a>
+                        <a href="../electoral/sala_electoral.php">Sala Electoral</a>
                         <a href="#">Candidatos</a>
                       </div>
                     </div>
@@ -102,7 +101,7 @@
                   </div></a>
             </div>
             
-            <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
+            <!-- <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
                 <a href="#" class="opacidad">
                     <figure class="thumbnail-image"><img src="../images/folder.png" alt="" width="246" height="300"/>
                   </figure>
@@ -118,7 +117,7 @@
                   <div class="thumbnail-caption">
                     <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Leyes</p>
                   </div></a>
-            </div>
+            </div> -->
 
             
           
@@ -127,14 +126,14 @@
 
       
       <div id="contenido" style="text-align: center;">
-      <h3 style="text-align:center;color:#9F9F9F" id="resoluciones">Resoluciones</h3>
-      <div style="text-align: left;width: 80%;margin: auto; margin-top:1%">
-      <h4>Resolución Nº 78</h4>
-      <!-- <a download href="../images/folder.png" >Descargar archivo desde aquí</a> -->
-        <iframe id="iframepdf" src="../files/documentos/resoluciones/resoluciones.pdf"width="100%" height="600px"></iframe>
-      </div>  
-    </div>
-      <bR>
+        <h3 style="text-align:center;color:#9F9F9F" id="resoluciones">Resoluciones</h3>
+        <div style="text-align: left;width: 80%;margin: auto; margin-top:1%">
+          <h4><li>Resolución Nº 78</li></h4>
+          <!-- <a download href="../images/folder.png" >Descargar archivo desde aquí</a> -->
+            <iframe id="iframepdf" src="../files/documentos/resoluciones/resoluciones.pdf"width="100%" height="600px"></iframe>
+        </div>  
+      </div>
+      
         
 
       
@@ -142,7 +141,7 @@
 
       
 
-        <?php require('../view/footer.php'); ?>
+      <br><?php require('../view/footer.php'); ?>
 
     </div>
     <div class="snackbars" id="form-output-global"></div>
