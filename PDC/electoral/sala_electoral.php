@@ -20,9 +20,8 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> </div>
+          <div class="cssload-speeding-wheel"><img src="../images/logo.png" alt=""> </div>
         </div>
-        <p>Cargando...</p>
       </div>
     </div>
     <div class="page">
@@ -46,7 +45,7 @@
                       </button>
                       <div class="dropdown-content">
                         <a href="../nosotros/quienesomos.php">Quienes Somos</a>
-                        <a href="#">Autoridades</a>
+                        <a href="../nosotros/autoridades.php">Autoridades</a>
                         <a href="#">Organigrama</a>
                         <a href="../nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
