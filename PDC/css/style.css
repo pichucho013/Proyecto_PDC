@@ -79,6 +79,22 @@ body {
 	background-color: #fff;
 }
 
+.reboteIn{
+	-webkit-animation: 0.5s rebotarIn infinite;
+}
+
+@-webkit-keyframes rebotarIn{
+	0%{
+		opacity: 0;
+		-webkit-transform: scale(0.3);
+	}
+	
+	100%{
+		opacity: 1;
+		-webkit--transform: scale(1);
+	}
+}
+
 /*
 * @section      Page Content
 * @description  This section holds specific style redeclarations for some
@@ -87,6 +103,10 @@ body {
 section {
 	position: relative;
 	z-index: 1;
+}
+
+.autoridades{
+	color: black;
 }
 
 .page-content {
