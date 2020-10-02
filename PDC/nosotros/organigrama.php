@@ -81,7 +81,7 @@
         </div>
       </header>
 
-      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(images/banner-estatuto.jpg);">
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner_organigrama.jpg);">
         <div class="container">
           <div class="page-title">
             <h2>Organigrama</h2>
