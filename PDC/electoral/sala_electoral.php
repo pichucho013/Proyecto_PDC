@@ -46,7 +46,7 @@
                       <div class="dropdown-content">
                         <a href="../nosotros/quienesomos.php">Quienes Somos</a>
                         <a href="../nosotros/autoridades.php">Autoridades</a>
-                        <a href="#">Organigrama</a>
+                        <a href="../nosotros/organigrama.php">Organigrama</a>
                         <a href="../nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
@@ -56,7 +56,7 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="sala_electoral.php" class="activo">Sala Electoral</a>
+                        <a href="../electoral/sala_electoral.php" class="activo">Sala Electoral</a>
                         <a href="#">Candidatos</a>
                       </div>
                     </div>
@@ -143,13 +143,6 @@
           <iframe id="iframepdf" src="../files/sala electoral/cronograma.pdf" width="100%" height="600px"></iframe>
         </div>  
       </div>
-
-        
-
-      
-
-
-      
 
       <br><?php require('../view/footer.php'); ?>
 
