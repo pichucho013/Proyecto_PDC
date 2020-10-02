@@ -32,32 +32,32 @@
           <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="53px" data-xl-stick-up-offset="53px" data-xxl-stick-up-offset="53px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
             <div class="rd-navbar-inner">
 
-            <?php require('view/header.php'); ?>
+            <?php require('../view/header.php'); ?>
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.png" alt="" width="100px"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
-                    <a href="index.php">Inicio</a>
+                    <a href="../index.php" >Inicio</a>
                     <div class="dropdown">
                       <button class="dropbtn">Nosotros 
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="nosotros/quienesomos.php">Quienes Somos</a>
-                        <a href="#">Autoridades</a>
-                        <a href="#">Organigrama</a>
-                        <a href="nosotros/pdcmundo.php">PDC en el mundo</a>
+                        <a href="../nosotros/quienesomos.php">Quienes Somos</a>
+                        <a href="../nosotros/autoridades.php">Autoridades</a>
+                        <a href="../nosotros/organigrama.php">Organigrama</a>
+                        <a href="../nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
-                    <a href="estatuto.php">Estatuto</a>
-                    <div class="dropdown">
+                    <a href="../estatuto.php">Estatuto</a>
+                    <div class="dropdown activo">
                       <button class="dropbtn">Electoral 
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Sala Electoral</a>
+                        <a href="../electoral/sala_electoral.php" class="activo">Sala Electoral</a>
                         <a href="#">Candidatos</a>
                       </div>
                     </div>
@@ -68,18 +68,17 @@
                       <div class="dropdown-content">
                         <a href="#">Noticias</a>
                         <a href="#">Actividades</a>
-                        <a href="prensa/galeria.php">Galeria</a>
-                        <a href="prensa/documentos.php">Documentos</a>
+                        <a href="../prensa/galeria.php">Galeria</a>
+                        <a href="../prensa/documentos.php">Documentos</a>
                       </div>
                     </div> 
-                    <a href="contactos.php" class="activo">Contacto</a>
+                    <a href="../contactos.php" >Contacto</a>
                     <a href="#" style="height: 57px;" class="icon" onclick="myFunction()">&#9776;</a>
                   </div>
               </div>
             </div>
           </nav>
         </div>
-
         
       </header>
 

@@ -52,29 +52,29 @@
                       <div class="dropdown-content">
                         <a href="../nosotros/quienesomos.php">Quienes Somos</a>
                         <a href="../nosotros/autoridades.php">Autoridades</a>
-                        <a href="#">Organigrama</a>
+                        <a href="../nosotros/organigrama.php">Organigrama</a>
                         <a href="../nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
                     <a href="../estatuto.php">Estatuto</a>
-                    <div class="dropdown">
+                    <div class="dropdown activo">
                       <button class="dropbtn">Electoral 
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="../electoral/sala_electoral.php">Sala Electoral</a>
+                        <a href="../electoral/sala_electoral.php" class="activo">Sala Electoral</a>
                         <a href="#">Candidatos</a>
                       </div>
                     </div>
-                    <div class="dropdown activo">
+                    <div class="dropdown">
                       <button class="dropbtn">Prensa 
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
                         <a href="#">Noticias</a>
                         <a href="#">Actividades</a>
-                        <a href="galeria.php" class="activo">Galeria</a>
-                        <a href="documentos.php">Documentos</a>
+                        <a href="../prensa/galeria.php">Galeria</a>
+                        <a href="../prensa/documentos.php">Documentos</a>
                       </div>
                     </div> 
                     <a href="../contactos.php" >Contacto</a>
