@@ -126,16 +126,26 @@
         </div>
       </section>
 
-      <section class="section-35">
+      <section class="section-35 section-md-50">
         <div class="container">
           <h3>Fotos ODCA</h3>
-          <p class="text-secondary">En el año 2015 la Juventud Democrática Cristiana de América (JODCA), se reunió en San José - Costa Rica, para elegir a la Directiva que actualmente es presidida por Henry Salazar del Partido Unidad Social Cristiana de Costa Rica y de la cual forma parte como Encargada de la Secretaria de Integración e Igualdad, la actual presidenta de la Juventud del PDC de Paraguay, Lic. Alba María Cristaldo.</p>
-          <br>
-          <figure><img src="../images/pdcmundo3.jpg" alt="" width="1169" height="610"/></figure> <br>
-          <figure><img src="../images/pdcmundo4.jpg" alt="" width="1169" height="610"/></figure> <br>
-          <figure><img src="../images/pdcmundo5.jpg" alt="" width="1169" height="610"/></figure>
+          <div class="row row-30 flex-row-md-reverse justify-content-lg-between">
+            <div class="col-md-6">
+              <figure><img src="../images/pdcmundo3.JPG" alt="" width="570" height="386"/>
+              </figure>
+            </div>
+            <div class="col-md-6">
+              <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
+                <p>En el año 2015 la Juventud Democrática Cristiana de América (JODCA), se reunió en San José - Costa Rica.</p>
+                <p>Con el objetivo de alegir a la Directiva que actualmente es presidida por Henry Salazar del Partido Unidad Social Cristiana de Costa Rica y de la cual forma parte como Encargada de la Secretaria de Integración e Igualdad, la actual presidenta de la Juventud del PDC de Paraguay, Lic. Alba María Cristaldo.</p>
+                <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="../prensa/galeria.php" target="_blank">Ver mas</a></div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+
+      
 
     <?php require('../view/footer.php'); ?>
     

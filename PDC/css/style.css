@@ -1322,7 +1322,7 @@ html .button-silver-outline .badge {
 	max-height: none;
 }
 
-.thumbnail-variant-2:before {
+/* .thumbnail-variant-2:before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -1331,7 +1331,7 @@ html .button-silver-outline .badge {
 	left: 0;
 	z-index: 1;
 	background: rgba(43, 47, 64, 0.76);
-}
+} */
 
 .thumbnail-variant-2 .thumbnail-inner {
 	position: relative;
@@ -1409,10 +1409,10 @@ html .button-silver-outline .badge {
 	.desktop .thumbnail-variant-2:hover .thumbnail-inner > * {
 		transform: translateY(0);
 	}
-	.desktop .thumbnail-variant-2:hover:before,
+	/* .desktop .thumbnail-variant-2:hover:before,
 	.desktop .thumbnail-variant-2:hover .thumbnail-inner {
 		opacity: 1;
-	}
+	} */
 }
 
 @media (min-width: 992px) {
@@ -12951,7 +12951,7 @@ html.boxed .rd-navbar--is-clone {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	background: #cca876;
+	background: #4CAF50;
 	left: 0;
 	top: 0;
 }
@@ -14149,6 +14149,7 @@ html.boxed .rd-navbar--is-clone {
 
 .dropdown-content a:hover {
   background-color: #73D673;
+  
   color: black;
 }
 
@@ -14165,6 +14166,7 @@ html.boxed .rd-navbar--is-clone {
 	display: block;
 	height: 57px;
   }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -14186,6 +14188,8 @@ html.boxed .rd-navbar--is-clone {
     width: 100%;
     text-align: left;
   }
+
+
 }
 
 @media (max-width: 1199px) {

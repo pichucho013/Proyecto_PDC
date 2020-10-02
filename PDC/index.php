@@ -216,8 +216,8 @@
                   <figure class="thumbnail-image"><img src="nosotros/autoridades/Agustín Ortiz.jpg" alt="" style="width: 100%; height: 100%"/>
                   </figure>
                   <div class="thumbnail-inner">
-                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+595 982–384 255</a></div>
-                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@ejemplo.org</a></div>
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o" style="opacity:0"></span></div>
                   </div>
                   <div class="thumbnail-caption">
                     <p class="text-header"><a href="nosotros/autoridades.php">Agustín Ortiz</a></p>
@@ -233,11 +233,11 @@
                   <figure class="thumbnail-image"><img src="nosotros/autoridades/Alba espinola.jpg" alt="" style="width: 100%; height: 100%" />
                   </figure>
                   <div class="thumbnail-inner">
-                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+595 982–384 255</a></div>
-                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@ejemplo.org</a></div>
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o" style="opacity:0"></span></div>
                   </div>
                   <div class="thumbnail-caption">
-                    <p class="text-header"><a href="nosotros/autoridades.php">Alba Estela Espinola</a></p>
+                    <p class="text-header"><a href="nosotros/autoridades.php">Alba Espinola</a></p>
                     <div class="divider divider-md bg-teak"></div>
                     <p class="text-caption">Junta Nacional</p>
                   </div>
@@ -250,8 +250,8 @@
                   <figure class="thumbnail-image "><img src="nosotros/autoridades/Silvano_galeano.jpg" alt="" style="width: 100%; height: 100%" />
                   </figure>
                   <div class="thumbnail-inner">
-                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+595 982–384 255</a></div>
-                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@ejemplo.org</a></div>
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>
+                    <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o" style="opacity:0"></span></div>
                   </div>
                   <div class="thumbnail-caption">
                     <p class="text-header"><a href="nosotros/autoridades.php">Silvano Galeano</a></p>
