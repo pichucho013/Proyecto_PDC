@@ -46,7 +46,7 @@
                       <div class="dropdown-content">
                         <a href="../nosotros/quienesomos.php">Quienes Somos</a>
                         <a href="../nosotros/autoridades.php">Autoridades</a>
-                        <a href="#">Organigrama</a>
+                        <a href="../nosotros/organigrama.php">Organigrama</a>
                         <a href="../nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>

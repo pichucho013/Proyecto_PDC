@@ -38,7 +38,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -49,7 +49,7 @@
                       <div class="dropdown-content">
                         <a href="quienesomos.php">Quienes Somos</a>
                         <a href="autoridades.php" class="activo">Autoridades</a>
-                        <a href="#">Organigrama</a>
+                        <a href="organigrama.php">Organigrama</a>
                         <a href="pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>

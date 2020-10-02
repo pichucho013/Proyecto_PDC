@@ -41,7 +41,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -52,7 +52,7 @@
                       <div class="dropdown-content">
                         <a href="../nosotros/quienesomos.php">Quienes Somos</a>
                         <a href="../nosotros/autoridades.php">Autoridades</a>
-                        <a href="#">Organigrama</a>
+                        <a href="../nosotros/organigrama.php">Organigrama</a>
                         <a href="../nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
@@ -96,35 +96,39 @@
       </section>
 
 <!-- albunes miniaturas -->
-      <section class="section-35 section-md-50" style="background-color:#255085">
-      <h3 style="text-align:center; color:white">Álbumes</h3>
+      <section class="section-35 section-md-50"  id="aca">
+        <h3 style="text-align:center; color:#9f9f9f">Álbumes</h3>
           <div id="row" class="row row-40" style="justify-content: space-evenly;">
           
             <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center" id="carpeta">
-                <a href="#aca" onclick="mostrar_galeria('PDC')" class="opacidad">
-                    <figure class="thumbnail-image"><img src="../files/galeria/PDC/portada.jpg" alt="" width="246" height="300"/>
-                  </figure>
+                <a href="#aca" onclick="mostrar_galeria('PDC')" class="opacidad" style="border:5px solid #255085">
+                    <figure class="thumbnail-image">
+                      <img src="../files/galeria/PDC/portada.jpg" alt="" width="246" height="300"/>
+                    </figure>
                   <div class="thumbnail-caption">
                     <p class="text-header" style="background-color: #255085;text-align: center;color: white;">PDC</p>
-                  </div></a>
+                  </div>
+                </a>
             </div>
             
             <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center" id="carpeta">
-                <a href="#aca" onclick="mostrar_galeria('ODCA')" class="opacidad" >
-                    <figure class="thumbnail-image"><img src="../files/galeria/ODCA/1.jpg" alt="" width="246" height="300"/>
-                  </figure>
+                <a href="#aca" onclick="mostrar_galeria('ODCA')" class="opacidad" style="border:5px solid #255085">
+                    <figure class="thumbnail-image">
+                      <img src="../files/galeria/ODCA/1.jpg" alt="" width="246" height="300"/>
+                    </figure>
                   <div class="thumbnail-caption">
                     <p class="text-header" style="background-color: #255085;text-align: center;color: white;">ODCA</p>
-                  </div></a>
+                  </div>
+                </a>
             </div> 
-        </div>
+          </div>
       </section>
 
       
-  <section class="section-35 section-md-50" id="aca">
+  <section class="section-35 section-md-50">
     <div id="row1" class="row row-40" >
       <div id="fotos_pdc">
-        <h4 id="album_pdc" style="color:#9f9f9f">Álbum PDC</h4>
+        <h4 id="album_pdc" style="color:white;background:#9f9f9f">Álbum PDC</h4>
         <div class="grid-gallery">
 
             <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/portada.jpg">
@@ -167,7 +171,7 @@
     
 
       <div id="fotos_odca" style="display:none">
-      <h4 id="album_odca"style="color:#9f9f9f">Álbum ODCA</h4>
+      <h4 id="album_odca" style="color:white;background:#9f9f9f">Álbum ODCA</h4>
         <div class="grid-gallery">
             <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/1.jpg">
                 <img class="grid-gallery__image" src="../files/galeria/ODCA/1.jpg">

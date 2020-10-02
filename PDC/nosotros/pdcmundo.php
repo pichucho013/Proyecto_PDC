@@ -35,7 +35,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -46,7 +46,7 @@
                       <div class="dropdown-content">
                         <a href="quienesomos.php">Quienes Somos</a>
                         <a href="autoridades.php">Autoridades</a>
-                        <a href="#">Organigrama</a>
+                        <a href="organigrama.php">Organigrama</a>
                         <a href="pdcmundo.php" class="activo">PDC en el mundo</a>
                       </div>
                     </div>
@@ -100,7 +100,7 @@
               <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
                 <p>El PDC por medio de sus principios humanistas cristianos, forma parte de la Organización Demócrata Cristiana de América (ODCA).</p>
                 <p>La ODCA es una organización política internacional conformada por partidos políticos, agrupaciones y asociaciones del continente americano, que comparten los principios del humanismo cristiano, y que trabajan coordinadamente por el desarrollo integral de la persona humana, la libertad, la democracia, los derechos humanos, el desarrollo con equidad, el respeto al medio ambiente y la paz mundial. </p>
-                <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="http://www.odca.cl/">Ver mas</a></div>
+                <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="http://www.odca.cl/" target="_blank">Ver mas</a></div>
               </div>
             </div>
           </div>

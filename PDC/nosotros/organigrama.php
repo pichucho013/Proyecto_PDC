@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Organigrama</title>
+    <title>Nosotros - Organigrama</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,9 +20,8 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> </div>
+          <div class="cssload-speeding-wheel"> <img src="../images/logo.png" alt=""> </div>
         </div>
-        <p>Cargando...</p>
       </div>
     </div>
     <div class="page">
@@ -36,28 +35,28 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.png" alt="" width="100px"/></a>
+                  <a class="rd-navbar-brand brand" href="index.php"><img src="../images/logo.png" alt="" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
-                    <a href="index.php">Inicio</a>
+                    <a href="../index.php">Inicio</a>
                     <div class="dropdown activo">
                       <button class="dropbtn">Nosotros 
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="../nosotros/quienesomos.php">Quienes Somos</a>
-                        <a href="#">Autoridades</a>
-                        <a href="../nosotros/organigrama.php" class="activo">Organigrama</a>
-                        <a href="../nosotros/pdcmundo.php">PDC en el mundo</a>
+                        <a href="quienesomos.php">Quienes Somos</a>
+                        <a href="autoridades.php">Autoridades</a>
+                        <a href="organigrama.php" class="activo">Organigrama</a>
+                        <a href="pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
-                    <a href="estatuto.php">Estatuto</a>
+                    <a href="../estatuto.php">Estatuto</a>
                     <div class="dropdown">
                       <button class="dropbtn">Electoral 
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Sala Electoral</a>
+                        <a href="../electoral/sala_electoral.php">Sala Electoral</a>
                         <a href="#">Candidatos</a>
                       </div>
                     </div>
@@ -72,7 +71,7 @@
                         <a href="../prensa/documentos.php">Documentos</a>
                       </div>
                     </div> 
-                    <a href="contactos.php" >Contacto</a>
+                    <a href="../contactos.php" >Contacto</a>
                     <a href="#" style="height: 57px;" class="icon" onclick="myFunction()">&#9776;</a>
                   </div>
               </div>
@@ -81,7 +80,7 @@
         </div>
       </header>
 
-      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(images/banner-estatuto.jpg);">
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner-organigrama.png);">
         <div class="container">
           <div class="page-title">
             <h2>Organigrama</h2>
