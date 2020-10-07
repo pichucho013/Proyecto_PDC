@@ -5,25 +5,23 @@
             <div class="row justify-content-sm-center">
               <div class="col-sm-9 col-md-11 col-xl-12">
                 <div class="row row-50">
-                  
-                  
-                  
+
                   <div class="col-md-6 col-lg-4 col-xl-3" id="centrarFooter">
                     <p class="h7">Enlaces rápidos</p>
                     <div class="row" style="max-width: 270px;">
                       <div class="col-6">
                         <ul class="list-marked-variant-2">
-                          <li><a href="index.html">Inicio</a></li>
-                          <li><a href="#">Nosotros</a></li>
-                          <li><a href="#">Autoridades</a></li>
-                          <li><a href="#">PDC mundo</a></li>
+                          <li><a href="http://www.pdc.org.py/index.php">Inicio</a></li>
+                          <li><a href="http://www.pdc.org.py/nosotros/quienesomos.php">Nosotros</a></li>
+                          <li><a href="http://www.pdc.org.py/nosotros/autoridades.php">Autoridades</a></li>
+                          <li><a href="http://www.pdc.org.py/nosotros/pdcmundo.php">PDC mundo</a></li>
                         </ul>
                       </div>
                       <div class="col-6">
                         <ul class="list-marked-variant-2">
-                          <li><a href="about-us.html">Estatuto</a></li>
-                          <li><a href="contact-us.html">Galeria</a></li>
-                          <li><a href="#">Documentos</a></li>
+                          <li><a href="http://www.pdc.org.py/estatuto.php">Estatuto</a></li>
+                          <li><a href="http://www.pdc.org.py/prensa/galeria.php">Galeria</a></li>
+                          <li><a href="http://www.pdc.org.py/prensa/documentos.php">Documentos</a></li>
                         </ul>
                       </div>
                     </div>

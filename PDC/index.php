@@ -14,13 +14,6 @@
 
   </head>
   <body>
-    <div class="preloader">
-      <div class="preloader-body">
-        <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> <img src="images/logo.png" alt="logito"></div>
-        </div>
-      </div>
-    </div>
     <div class="page">
       <header class="page-head">
         
@@ -54,7 +47,6 @@
                       </button>
                       <div class="dropdown-content">
                         <a href="electoral/sala_electoral.php">Sala Electoral</a>
-                        <a href="#">Candidatos</a>
                       </div>
                     </div>
                     <div class="dropdown">
@@ -62,8 +54,6 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Noticias</a>
-                        <a href="#">Actividades</a>
                         <a href="prensa/galeria.php">Galeria</a>
                         <a href="prensa/documentos.php">Documentos</a>
                       </div>
@@ -90,7 +80,6 @@
                       <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
                       </div>
                       <h1 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">Partido Demócrata Cristiano</h1>
-                      <!-- <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250"></p> -->
                     </div>
                   </div>
                 </div>
@@ -277,11 +266,6 @@
           <a href="https://simulador.tsje.gov.py/" target="_blanck" style="width:100%;height:100%;text-align:center;background:#E6E5E3"><img src="images/sala_electoral1.png" alt="Sala Electoral" style="width:80%;height:100%"></a>
         </section>
 
-      
-
-      
-
-      
       <section class="section-50 section-md-75 section-xl-100">
         <div class="container">
           <h3 class="text-center">Destacadas</h3>

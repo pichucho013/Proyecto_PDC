@@ -16,11 +16,6 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="fresco/dist/js/fresco.min.js"></script>
     <link rel="stylesheet" type="text/css" href="fresco/dist/css/fresco.css"/>
-    
-		<!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"></script>
-		<![endif]-->
   </head>
   <body>
 
@@ -57,7 +52,6 @@
                       </button>
                       <div class="dropdown-content">
                         <a href="../electoral/sala_electoral.php">Sala Electoral</a>
-                        <a href="#">Candidatos</a>
                       </div>
                     </div>
                     <div class="dropdown activo">
@@ -65,8 +59,6 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Noticias</a>
-                        <a href="#">Actividades</a>
                         <a href="galeria.php" class="activo">Galeria</a>
                         <a href="documentos.php">Documentos</a>
                       </div>
