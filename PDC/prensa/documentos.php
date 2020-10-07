@@ -20,12 +20,12 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> <img src="../images/logo.png" alt=""></div>
+          <div class="cssload-speeding-wheel"> <img src="../images/logo.png" alt="logito"></div>
         </div>
       </div>
     </div>
     <div class="page">
-    <header class="page-head">
+      <header class="page-head">
         
         <div class="rd-navbar-wrap">
           <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="53px" data-xl-stick-up-offset="53px" data-xxl-stick-up-offset="53px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
@@ -35,7 +35,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -93,34 +93,13 @@
         
           <div id="row" class="row row-40" style="justify-content: space-evenly;">
             <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
-                <a href="#resoluciones" onclick="mostrar('resoluciones')" class="opacidad">
-                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="" width="246" height="300"/>
+                <a href="#carpeta" onclick="mostrar('resoluciones')" class="opacidad">
+                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="carpeta" width="246" height="300"/>
                   </figure>
                   <div class="thumbnail-caption">
                     <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Resoluciones</p>
                   </div></a>
             </div>
-            
-            <!-- <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
-                <a href="#" class="opacidad">
-                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="" width="246" height="300"/>
-                  </figure>
-                  <div class="thumbnail-caption">
-                    <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Leyes</p>
-                  </div></a>
-            </div>
-            
-            <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
-                <a href="#" class="opacidad">
-                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="" width="246" height="300"/>
-                  </figure>
-                  <div class="thumbnail-caption">
-                    <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Leyes</p>
-                  </div></a>
-            </div> -->
-
-            
-          
         </div>
       </section>
 
@@ -134,13 +113,6 @@
         </div>  
       </div>
       
-        
-
-      
-
-
-      
-
       <br><?php require('../view/footer.php'); ?>
 
     </div>

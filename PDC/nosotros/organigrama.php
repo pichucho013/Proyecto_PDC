@@ -20,7 +20,7 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> <img src="../images/logo.png" alt=""> </div>
+          <div class="cssload-speeding-wheel"> <img src="../images/logo.png" alt="logito"> </div>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="index.php"><img src="../images/logo.png" alt="" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="index.php"><img src="../images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php">Inicio</a>

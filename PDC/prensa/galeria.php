@@ -23,13 +23,7 @@
 		<![endif]-->
   </head>
   <body>
-    <!-- <div class="preloader">
-      <div class="preloader-body">
-        <div class="cssload-container">
-          <div class="cssload-speeding-wheel"><img src="../images/logo.png" alt=""> </div>
-        </div>
-      </div>
-    </div> -->
+
     <div class="page">
     <header class="page-head">
         
@@ -41,7 +35,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -103,7 +97,7 @@
             <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center" id="carpeta">
                 <a href="#aca" onclick="mostrar_galeria('PDC')" class="opacidad" style="border:5px solid #255085">
                     <figure class="thumbnail-image">
-                      <img src="../files/galeria/PDC/portada.jpg" alt="" width="246" height="300"/>
+                      <img src="../files/galeria/PDC/portada.jpg" alt="album" width="246" height="300"/>
                     </figure>
                   <div class="thumbnail-caption">
                     <p class="text-header" style="background-color: #255085;text-align: center;color: white;">PDC</p>
@@ -114,7 +108,7 @@
             <div class="col-sm-6 col-md-3 col-lg-3" style="text-align:center" id="carpeta">
                 <a href="#aca" onclick="mostrar_galeria('ODCA')" class="opacidad" style="border:5px solid #255085">
                     <figure class="thumbnail-image">
-                      <img src="../files/galeria/ODCA/1.jpg" alt="" width="246" height="300"/>
+                      <img src="../files/galeria/ODCA/1.jpg" alt="album" width="246" height="300"/>
                     </figure>
                   <div class="thumbnail-caption">
                     <p class="text-header" style="background-color: #255085;text-align: center;color: white;">ODCA</p>
@@ -132,39 +126,39 @@
         <div class="grid-gallery">
 
             <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/portada.jpg">
-                <img class="grid-gallery__image" src="../files/galeria/PDC/portada.jpg">
+                <img class="grid-gallery__image" alt="portada.jpg" src="../files/galeria/PDC/portada.jpg">
             </a>
 
             <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/2.jpg">
-                <img class="grid-gallery__image" src="../files/galeria/PDC/2.jpg">
+                <img class="grid-gallery__image" alt="2.jpg" src="../files/galeria/PDC/2.jpg">
             </a>
             
             <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/3.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/PDC/3.jpg">
+                    <img class="grid-gallery__image" alt="3.jpg" src="../files/galeria/PDC/3.jpg">
             </a>
 
             <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/4.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/PDC/4.jpg">
+                    <img class="grid-gallery__image" alt="4.jpg" src="../files/galeria/PDC/4.jpg">
             </a>
 
             <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/5.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/PDC/5.jpg">
+                    <img class="grid-gallery__image" alt="5.jpg" src="../files/galeria/PDC/5.jpg">
             </a>
 
             <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/6.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/PDC/6.jpg">
+                    <img class="grid-gallery__image" alt="6.jpg" src="../files/galeria/PDC/6.jpg">
             </a>
 
             <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/7.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/PDC/7.jpg">
+                    <img class="grid-gallery__image" alt="7.jpg" src="../files/galeria/PDC/7.jpg">
             </a>
 
             <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/8.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/PDC/8.jpg">
+                    <img class="grid-gallery__image" alt="8.jpg" src="../files/galeria/PDC/8.jpg">
             </a>
 
             <a class="grid-gallery__item fresco" data-fresco-group="pdc" href="../files/galeria/PDC/9.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/PDC/9.jpg">
+                    <img class="grid-gallery__image" alt="9.jpg" src="../files/galeria/PDC/9.jpg">
             </a>
         </div>
       </div>
@@ -174,36 +168,36 @@
       <h4 id="album_odca" style="color:white;background:#9f9f9f">Álbum ODCA</h4>
         <div class="grid-gallery">
             <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/1.jpg">
-                <img class="grid-gallery__image" src="../files/galeria/ODCA/1.jpg">
+                <img class="grid-gallery__image" alt="ODCA/1.jpg" src="../files/galeria/ODCA/1.jpg">
             </a>
 
             <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/2.jpg">
-                <img class="grid-gallery__image" src="../files/galeria/ODCA/2.jpg">
+                <img class="grid-gallery__image" alt="ODCA/1\2.jpg" src="../files/galeria/ODCA/2.jpg">
             </a>
 
             <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/4.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/ODCA/4.jpg">
+                    <img class="grid-gallery__image" alt="ODCA/3.jpg" src="../files/galeria/ODCA/4.jpg">
             </a>
             <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/3.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/ODCA/3.jpg">
+                    <img class="grid-gallery__image" alt="ODCA/4.jpg" src="../files/galeria/ODCA/3.jpg">
             </a>
             <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/5.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/ODCA/5.jpg">
+                    <img class="grid-gallery__image" alt="ODCA/5.jpg" src="../files/galeria/ODCA/5.jpg">
             </a>
             <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/6.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/ODCA/6.jpg">
+                    <img class="grid-gallery__image" alt="ODCA/6.jpg" src="../files/galeria/ODCA/6.jpg">
             </a>
             <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/7.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/ODCA/7.jpg">
+                    <img class="grid-gallery__image" alt="ODCA/7.jpg" src="../files/galeria/ODCA/7.jpg">
             </a>
             <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/8.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/ODCA/8.jpg">
+                    <img class="grid-gallery__image" alt="ODCA/8.jpg" src="../files/galeria/ODCA/8.jpg">
             </a>
             <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/9.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/ODCA/9.jpg">
+                    <img class="grid-gallery__image" alt="ODCA/9.jpg" src="../files/galeria/ODCA/9.jpg">
             </a>
             <a class="grid-gallery__item fresco" data-fresco-group="odca" href="../files/galeria/ODCA/10.jpg">
-                    <img class="grid-gallery__image" src="../files/galeria/ODCA/10.jpg">
+                    <img class="grid-gallery__image" alt="ODCA/10.jpg" src="../files/galeria/ODCA/10.jpg">
             </a>
         </div>
       <div>
