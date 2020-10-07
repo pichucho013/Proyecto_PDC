@@ -20,7 +20,7 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"><img src="../images/logo.png" alt=""> </div>
+          <div class="cssload-speeding-wheel"><img src="../images/logo.png" alt="logito"> </div>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -93,8 +93,8 @@
         
           <div id="row" class="row row-40" style="justify-content: space-evenly;">
             <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
-                <a href="#resoluciones" onclick="sala_mostrar('tsje')" class="opacidad">
-                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="" width="246" height="300"/>
+                <a href="#carpeta" onclick="sala_mostrar('tsje')" class="opacidad">
+                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="carpeta" width="246" height="300"/>
                   </figure>
                   <div class="thumbnail-caption">
                     <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Resoluciones</p>
@@ -102,8 +102,8 @@
             </div>
             
             <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
-                <a href="#resoluciones" onclick="sala_mostrar('cronograma')" class="opacidad">
-                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="" width="246" height="300"/>
+                <a href="#carpeta" onclick="sala_mostrar('cronograma')" class="opacidad">
+                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="carpeta" width="246" height="300"/>
                   </figure>
                   <div class="thumbnail-caption">
                     <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Cronograma</p>
@@ -136,7 +136,7 @@
       </div>
 
       <div id="contenido_cronograma" style="text-align: center;display:none">
-        <h3 style="text-align:center;color:#9F9F9F" id="resoluciones">Cronograma de Actividades</h3>
+        <h3 style="text-align:center;color:#9F9F9F" id="cronograma">Cronograma de Actividades</h3>
         <div style="text-align: left;width: 80%;margin: auto; margin-top:1%">
           <h4><li>Para las elecciones internas del 20  de junio de 2021</li></h4>
               <!-- <a download href="../images/folder.png" >Descargar archivo desde aquí</a> -->

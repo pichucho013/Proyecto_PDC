@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Estatuto</title>
+    <title>Estatuto del PDC</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> <img src="images/logo.png" alt=""> </div>
+          <div class="cssload-speeding-wheel"> <img src="images/logo.png" alt="logito"> </div>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.png" alt="" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="index.php">Inicio</a>
@@ -91,7 +91,6 @@
       <section class="section-35 section-md-50" style="text-align: center;">
 
       <iframe src="files/estatuto/estatuto.pdf" style="width:80%; height:800px; margin:auto" frameborder="0"></iframe>
-
 </section>
 
       <?php require('view/footer.php'); ?>

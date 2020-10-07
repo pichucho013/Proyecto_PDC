@@ -17,7 +17,7 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> <img src="images/logo.png" alt=""></div>
+          <div class="cssload-speeding-wheel"> <img src="images/logo.png" alt="logito"></div>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@
 
             <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="index.php" ><img src="images/logo.png" alt="" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="index.php" ><img src="images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="index.php" class="activo">Inicio</a>
@@ -89,8 +89,8 @@
                     <div class="col-md-11 col-lg-10 col-xl-9">
                       <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
                       </div>
-                      <h1 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150"></h1>
-                      <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250"></p>
+                      <h1 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">Partido Demócrata Cristiano</h1>
+                      <!-- <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250"></p> -->
                     </div>
                   </div>
                 </div>
@@ -105,7 +105,7 @@
                       </div>
                       <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">REGISTRO CÍVICO PERMANENTE</h2>
                       <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">Consulte su Registro Cívico Permanente aquí</p>
-                      <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="https://rcp.tsje.gov.py/">Click aquí</a></div>
+                      <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="https://rcp.tsje.gov.py/" target="_blank">Click aquí</a></div>
                     </div>
                   </div>
                 </div>
@@ -179,7 +179,7 @@
           <div class="container">
             <div class="inset-xl-left-70 inset-xl-right-70">
               <article class="box-cart bg-ebony-clay" style="background:rgba(37, 80, 133,0.8)">
-                <div class="box-cart-image"><img src="images/presidente.PNG" alt="" width="342" height="338"/>
+                <div class="box-cart-image"><img src="images/presidente.PNG" alt="Presidente" width="342" height="338"/>
                 </div>
                 <div class="box-cart-body">
                   <blockquote class="blockquote-complex blockquote-complex-inverse">
@@ -188,7 +188,7 @@
                       Nacio el 13 de octubre de 1945 en Mcal Estigarribia(Chaco) su estado civil es casado y es de nacionalidad Paraguaya. 
                     </p>
                     <p>
-                    Está casado con Lic. Carmen Da Costa Van Humbeeck.
+                    Está casado con la Lic. Carmen Da Costa Van Humbeeck.
                     </p>
                     <p>
                       Presidente del partido demócrata cristiano desde el 16 de octubre de 2019, proclamado por el tribunal superior de justicia electoral.
@@ -198,7 +198,7 @@
                       <cite>HORACIO GALEANO PERRONE</cite>
                     </div>
                   </blockquote>
-                  <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="http://www.horaciogaleanoperrone.com.py/">Informate más</a></div>
+                  <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="http://www.horaciogaleanoperrone.com.py/" target="_blank">Informate más</a></div>
                 </div>
               </article>
             </div>
@@ -213,7 +213,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Agustín Ortiz.jpg" alt="" style="width: 100%; height: 100%"/>
+                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Agustín Ortiz.jpg" alt="Agustin Ortiz" style="width: 100%; height: 100%"/>
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>
@@ -230,7 +230,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Alba espinola.jpg" alt="" style="width: 100%; height: 100%" />
+                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Alba espinola.jpg" alt="Alba Espinola" style="width: 100%; height: 100%" />
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>
@@ -247,7 +247,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image "><img src="nosotros/autoridades/Silvano_galeano.jpg" alt="" style="width: 100%; height: 100%" />
+                  <figure class="thumbnail-image "><img src="nosotros/autoridades/Silvano_galeano.jpg" alt="Silvano Galeano" style="width: 100%; height: 100%" />
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>
@@ -272,23 +272,9 @@
         </div>
       </section>
      
-        <!-- <section class="section parallax-container bg-black" data-parallax-img="images/sala_electoral.jpg">
-          <div class="parallax-content">
-            <div class="section-50 section-md-90">
-              <div class="container">
-                <div class="row row-40">
-                  <div class="col-sm-6 col-md-3">
-                    <div class="box-counter box-counter-inverse">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
 
         <section style="width:100%">
-          <a href="https://simulador.tsje.gov.py/" target="_blanck" style="width:100%;height:100%;text-align:center;background:#E6E5E3"><img src="images/sala_electoral1.png" alt="" style="width:80%;height:100%"></a>
+          <a href="https://simulador.tsje.gov.py/" target="_blanck" style="width:100%;height:100%;text-align:center;background:#E6E5E3"><img src="images/sala_electoral1.png" alt="Sala Electoral" style="width:80%;height:100%"></a>
         </section>
 
       
