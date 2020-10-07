@@ -14082,7 +14082,6 @@ html.boxed .rd-navbar--is-clone {
 .topnav {
   overflow: hidden;
   background-color: #255085;
-  
 }
 
 .topnav a {
@@ -14167,33 +14166,11 @@ html.boxed .rd-navbar--is-clone {
 	display: block;
 	height: 57px;
   }
-  .topnav{
-	position: fixed;
-	width: 100%;
-  }
-  .section-md-40 {
-	  margin-top: 57px;;
-  }
 
-}
-
-@media screen and (max-width: 768px) {
-	.topnav{
-		position: fixed;
-		width: 100%;
-	  }
-	  .section-md-40 {
-		  margin-top: 57px;;
-	  }
-	    /* deshabilitar el hover para utilizar click en las tablets */
-
-	   .dropdown:hover .dropdown-content {
-		display: none;
-  		}
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: fixed;}
+  .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -14204,37 +14181,21 @@ html.boxed .rd-navbar--is-clone {
     display: block;
     text-align: left;
   }
-
   .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: static;}
+  .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
   }
-  /* deshabilitar el hover para utilizar click en los celulares */
-  .dropdown:hover .dropdown-content {
-	display: none;
-  }
 
-
-  .topnav a:hover, .dropdown:hover .dropbtn {
-	background-color: #255085;
-	color: white;
-  }
-  
-  .dropdown-content a:hover {
-	background-color: white;
-	color: black;
-  }
 
 }
-
 
 @media (max-width: 1199px) {
 	.topnav a {
 		display: block;
-		height: 57px;
+		height: 100%;
 	}
 
 	img {

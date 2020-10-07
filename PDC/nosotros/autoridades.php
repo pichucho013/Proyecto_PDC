@@ -22,7 +22,7 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> <img src="../images/logo.png" alt="logito"></div>
+          <div class="cssload-speeding-wheel"> <img src="../images/logo.png" alt=""></div>
         </div>
 
       </div>
@@ -38,7 +38,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -94,7 +94,7 @@
         <div class="container" style="display:flex;flex-wrap: wrap;">
           <div class="autoridad">
             <article>
-              <figure class="carnet"><img src="autoridades/Silvano_galeano.jpg" alt="Silvano Galeano"></figure>
+              <figure class="carnet"><img src="autoridades/Silvano_galeano.jpg" alt=""></figure>
               <p class="nombre">Lic. Silvano Galeano Bareiro</p>
               <p class="cargo">Miembro Titular de la Junta Nacional y Tesorero</p>
               <p class="bio">Silvano Galeano Bareiro es Lic. en Contabilidad por la Universidad Nacional de Asunción. 
@@ -113,7 +113,7 @@
 
           <div class="autoridad">
             <article>
-              <figure class="carnet"><img src="autoridades/Agustín Ortiz.jpg" alt="Agustion Ortiz"></figure>
+              <figure class="carnet"><img src="autoridades/Agustín Ortiz.jpg" alt=""></figure>
               <p class="nombre">Agustin Ortiz</p>
               <p class="cargo">Vicepresidente Segundo</p>
               <p class="bio">Agustín Ortiz nació en Buena Vista – Chaco, Paraguay. Está casado y tiene cuatro hijos. 
@@ -134,7 +134,7 @@
 
           <div class="autoridad">
             <article>
-              <figure class="carnet"><img src="autoridades/Alba espinola.jpg" alt="Alba Espinola"></figure>
+              <figure class="carnet"><img src="autoridades/Alba espinola.jpg" alt=""></figure>
               <p class="nombre">Alba Estela Espinola de Cristaldo </p>
               <p class="cargo">Miembro titular de la Junta Nacional y Representante Política del partido</p>
               <p class="bio">Alba Estela Espinola de Cristaldo nació el 5 de mayo de 1969 en la Ciudad de Coronel Oviedo, 

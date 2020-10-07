@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Nosotros - PDC en el mundo</title>
+    <title>PDC en el mundo</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
-          <div class="cssload-speeding-wheel"><img src="../images/logo.png" alt="logito"> </div>
+          <div class="cssload-speeding-wheel"><img src="../images/logo.png" alt=""> </div>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -93,7 +93,7 @@
           <h3>ODCA</h3>
           <div class="row row-30 flex-row-md-reverse justify-content-lg-between">
             <div class="col-md-6">
-              <figure><img src="../images/pdcmundo1.PNG" alt="ODCA" width="570" height="386"/>
+              <figure><img src="../images/pdcmundo1.PNG" alt="" width="570" height="386"/>
               </figure>
             </div>
             <div class="col-md-6">
@@ -112,14 +112,14 @@
           <h3>KAS</h3>
           <div class="row row-30 justify-content-lg-between">
             <div class="col-md-6">
-              <figure><img src="../images/pdcmundo2.PNG" alt="KAS" width="570" height="386"/>
+              <figure><img src="../images/pdcmundo2.PNG" alt="" width="570" height="386"/>
               </figure>
             </div>
             <div class="col-md-6">
               <div class="inset-lg-left-40 inset-xl-left-70 text-secondary">
                 <p>Por medio de la ODCA, nuestro partido también se encuentra ligado a la Fundación Konrad Adenauer (KAS).</p>
                 <p>La KAS es una fundación política alemana creada por la Unión Demócrata Cristiana de Alemania para fomentar a nivel mundial los ideales demócrata cristianos y socialcristianos. Comprometida a nivel nacional e internacional a fomentar los principios de Paz, Libertad y Justicia a través de la educación cívica y formación política. Promoviendo y preservando la democracia liberal, la economía social de mercado y el desarrollo y la consolidación de un consenso de valores.</p>
-                <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="https://www.kas.de/es/" target="_blank">Ver mas</a></div>
+                <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="https://www.kas.de/es/">Ver mas</a></div>
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@
           <h3>Fotos ODCA</h3>
           <div class="row row-30 flex-row-md-reverse justify-content-lg-between">
             <div class="col-md-6">
-              <figure><img src="../images/pdcmundo3.JPG" alt="fotos ODCA" width="570" height="386"/>
+              <figure><img src="../images/pdcmundo3.JPG" alt="" width="570" height="386"/>
               </figure>
             </div>
             <div class="col-md-6">
