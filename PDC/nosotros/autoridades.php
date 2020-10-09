@@ -13,20 +13,8 @@
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
-    <!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <div class="preloader">
-      <div class="preloader-body">
-        <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> <img src="../images/logo.png" alt=""></div>
-        </div>
-
-      </div>
-    </div>
     <div class="page">
       <header class="page-head">
         
@@ -38,7 +26,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="" width="100px"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -49,7 +37,7 @@
                       <div class="dropdown-content">
                         <a href="quienesomos.php">Quienes Somos</a>
                         <a href="autoridades.php" class="activo">Autoridades</a>
-                        <a href="#">Organigrama</a>
+                        <a href="organigrama.php">Organigrama</a>
                         <a href="pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
@@ -60,7 +48,6 @@
                       </button>
                       <div class="dropdown-content">
                         <a href="../electoral/sala_electoral.php">Sala Electoral</a>
-                        <a href="#">Candidatos</a>
                       </div>
                     </div>
                     <div class="dropdown">
@@ -68,8 +55,6 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Noticias</a>
-                        <a href="#">Actividades</a>
                         <a href="../prensa/galeria.php">Galeria</a>
                         <a href="../prensa/documentos.php">Documentos</a>
                       </div>
@@ -94,7 +79,7 @@
         <div class="container" style="display:flex;flex-wrap: wrap;">
           <div class="autoridad">
             <article>
-              <figure class="carnet"><img src="autoridades/Silvano_galeano.jpg" alt=""></figure>
+              <figure class="carnet"><img src="autoridades/Silvano_galeano.jpg" alt="Silvano Galeano"></figure>
               <p class="nombre">Lic. Silvano Galeano Bareiro</p>
               <p class="cargo">Miembro Titular de la Junta Nacional y Tesorero</p>
               <p class="bio">Silvano Galeano Bareiro es Lic. en Contabilidad por la Universidad Nacional de Asunción. 
@@ -113,7 +98,7 @@
 
           <div class="autoridad">
             <article>
-              <figure class="carnet"><img src="autoridades/Agustín Ortiz.jpg" alt=""></figure>
+              <figure class="carnet"><img src="autoridades/Agustín Ortiz.jpg" alt="Agustion Ortiz"></figure>
               <p class="nombre">Agustin Ortiz</p>
               <p class="cargo">Vicepresidente Segundo</p>
               <p class="bio">Agustín Ortiz nació en Buena Vista – Chaco, Paraguay. Está casado y tiene cuatro hijos. 
@@ -134,7 +119,7 @@
 
           <div class="autoridad">
             <article>
-              <figure class="carnet"><img src="autoridades/Alba espinola.jpg" alt=""></figure>
+              <figure class="carnet"><img src="autoridades/Alba espinola.jpg" alt="Alba Espinola"></figure>
               <p class="nombre">Alba Estela Espinola de Cristaldo </p>
               <p class="cargo">Miembro titular de la Junta Nacional y Representante Política del partido</p>
               <p class="bio">Alba Estela Espinola de Cristaldo nació el 5 de mayo de 1969 en la Ciudad de Coronel Oviedo, 

@@ -771,3 +771,9 @@ function myFunction() {
   }
 }
 
+$(".dropdown").click(function(){
+    $(this).children(".dropdown-content").slideToggle();
+})
+$(".dropdown-content").click(function(p){
+    p.stopPropagation();
+})
