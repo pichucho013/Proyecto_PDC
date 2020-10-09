@@ -117,7 +117,7 @@
           <h3>Fotos ODCA</h3>
           <div class="row row-30 flex-row-md-reverse justify-content-lg-between">
             <div class="col-md-6">
-              <figure><img src="../images/pdcmundo3.JPG" alt="fotos ODCA" width="570" height="386"/>
+              <figure><img src="../images/pdcmundo3.jpg" alt="fotos ODCA" width="570" height="386"/>
               </figure>
             </div>
             <div class="col-md-6">
