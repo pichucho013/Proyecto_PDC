@@ -11,20 +11,8 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <div class="preloader">
-      <div class="preloader-body">
-        <div class="cssload-container">
-          <div class="cssload-speeding-wheel"> </div>
-        </div>
-        <p>Cargando...</p>
-      </div>
-    </div>
     <div class="page">
     <header class="page-head">
         
@@ -36,7 +24,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.png" alt="" width="100px"/></a>
+                  <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.png" alt="" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="index.php">Inicio</a>
@@ -46,8 +34,8 @@
                       </button>
                       <div class="dropdown-content">
                         <a href="nosotros/quienesomos.php">Quienes Somos</a>
-                        <a href="#">Autoridades</a>
-                        <a href="#">Organigrama</a>
+                        <a href="nosotros/autoridades.php">Autoridades</a>
+                        <a href="nosotros/organigrama.php">Organigrama</a>
                         <a href="nosotros/pdcmundo.php">PDC en el mundo</a>
                       </div>
                     </div>
@@ -57,8 +45,7 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Sala Electoral</a>
-                        <a href="#">Candidatos</a>
+                        <a href="electoral/sala_electoral.php">Sala Electoral</a>
                       </div>
                     </div>
                     <div class="dropdown">
@@ -66,8 +53,6 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="#">Noticias</a>
-                        <a href="#">Actividades</a>
                         <a href="prensa/galeria.php">Galeria</a>
                         <a href="prensa/documentos.php">Documentos</a>
                       </div>
@@ -83,7 +68,7 @@
         
       </header>
 
-      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(images/banner-contacto.png);">
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(images/banner-contacto.jpg);">
         <div class="container">
           <div class="page-title">
             <h2>Contactanos</h2>
@@ -113,7 +98,7 @@
                 <div class="box-top">
                   <div class="box-icon"><span class="novi-icon icon icon-primary icon-lg fa fa-map-marker"></span></div>
                   <div class="box-header">
-                    <h5><a href="https://goo.gl/maps/eoHi4vyQetJL4GY89" target="_blank">Ubicación</a></h5>
+                    <h5><a href="https://goo.gl/maps/kM2ovAB6AHzScTwS9" target="_blank">Ubicación</a></h5>
                   </div>
                 </div>
                 <div class="divider bg-accent"></div>
@@ -132,7 +117,7 @@
                 </div>
                 <div class="divider bg-accent"></div>
                 <div class="box-body">
-                  <p>Enviarnos tus consultas y/o consultas al correo pdc.paraguay@gmail.com</p>
+                  <p>Envíanos tus consultas y/o dudas al correo pdc.paraguay@gmail.com</p>
                 </div>
               </article>
             </div>
@@ -160,6 +145,5 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/maps.js"></script>
   </body>
 </html>
