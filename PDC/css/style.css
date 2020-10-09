@@ -675,8 +675,8 @@ address {
 }
 
 .bg-teak {
-	background: #b49465;
-	fill: #b49465;
+	background: #ffff;
+	fill: #ffff;
 }
 
 .bg-cod-gray {
@@ -1348,7 +1348,7 @@ html .button-silver-outline .badge {
 	width: calc(100% - 34px);
 	padding: 17px 8px 25px;
 	margin: 31px 17px -25px 17px;
-	background: #cca876;
+	background: #4CAF50;
 }
 
 .thumbnail-variant-2 .thumbnail-caption * {

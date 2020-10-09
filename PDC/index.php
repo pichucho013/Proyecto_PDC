@@ -210,7 +210,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image"><img src="images/team-9-246x300.jpg" alt="" width="246" height="300"/>
+                  <figure class="thumbnail-image"><img src="images/Agustín_Ortiz.jpg" alt="" style="width: 100%; height: 100%"/>
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+595 982–384 255</a></div>
@@ -227,7 +227,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image"><img src="images/team-10-246x300.jpg" alt="" width="246" height="300"/>
+                  <figure class="thumbnail-image"><img src="images/Alba_espinola.jpg" alt="" style="width: 100%; height: 100%" />
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+595 982–384 255</a></div>
@@ -260,10 +260,10 @@
             </div>
             <div class="col-sm-6 col-md-12 col-lg-3 text-center">
               <div class="block-wrap-1">
-                <div class="block-number">06</div>
+                <div class="block-number"></div>
                 <h3 class="text-normal">Autoridades</h3>
                 <p class="h5 h5-smaller text-style-4">del PDC</p>
-                <p>Texto relacionado a la seccion de Autoridades con el fin de introducir a la dicha seccion(clara concisa).</p><a class="link link-group link-group-animated link-bold link-secondary" href="#"><span>Ver mas</span><span class="novi-icon icon icon-xxs icon-primary fa fa-angle-right"></span></a>
+                <p>Texto relacionado a la seccion de Autoridades con el fin de introducir a la dicha seccion(clara concisa).</p><a class="link link-group link-group-animated link-bold link-secondary" href="nosotros/autoridades.php"><span>Ver mas</span><span class="novi-icon icon icon-xxs icon-primary fa fa-angle-right"></span></a>
               </div>
             </div>
           </div>
