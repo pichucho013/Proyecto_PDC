@@ -45,7 +45,7 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="electoral/sala_electoral.php">Sala Electoral</a>
+                        <a href="electoral/sala-electoral.php">Sala Electoral</a>
                       </div>
                     </div>
                     <div class="dropdown">
