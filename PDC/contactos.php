@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="es">
   <head>
     <title>Contactos</title>
     <meta name="format-detection" content="telephone=no">
@@ -24,7 +24,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.png" alt="" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="index.php"><img src="images/logo.webp" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="index.php">Inicio</a>
@@ -45,7 +45,7 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="electoral/sala_electoral.php">Sala Electoral</a>
+                        <a href="electoral/sala-electoral.php">Sala Electoral</a>
                       </div>
                     </div>
                     <div class="dropdown">
@@ -68,7 +68,7 @@
         
       </header>
 
-      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(images/banner-contacto.jpg);">
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(images/banner-contacto.webp);">
         <div class="container">
           <div class="page-title">
             <h2>Contactanos</h2>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="es">
   <head>
     <title>Prensa - Documentos</title>
     <meta name="format-detection" content="telephone=no">
@@ -24,7 +24,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.webp" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -45,7 +45,7 @@
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
-                        <a href="../electoral/sala_electoral.php">Sala Electoral</a>
+                        <a href="../electoral/sala-electoral.php">Sala Electoral</a>
                       </div>
                     </div>
                     <div class="dropdown activo">
@@ -67,7 +67,7 @@
         
       </header>
 
-      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner_documentos.jpg);">
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner_documentos.webp); background-size:100% 50%">
         <div class="container">
           <div class="page-title">
             <h2>Documentos</h2>
@@ -80,7 +80,7 @@
           <div id="row" class="row row-40" style="justify-content: space-evenly;">
             <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
                 <a href="#carpeta" onclick="mostrar('resoluciones')" class="opacidad">
-                    <figure class="thumbnail-image"><img src="../images/folder.png" alt="carpeta" width="246" height="300"/>
+                    <figure class="thumbnail-image"><img src="../images/folder.webp" alt="carpeta" width="246" height="300"/>
                   </figure>
                   <div class="thumbnail-caption">
                     <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Resoluciones</p>
