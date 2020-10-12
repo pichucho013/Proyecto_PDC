@@ -27,7 +27,7 @@
 
             <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="index.php" ><img src="images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="index.php" ><img src="images/logo.webp" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="index.php" class="activo">Inicio</a>
@@ -73,7 +73,7 @@
       <section>
         <div class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="5500" data-simulate-touch="true">
           <div class="swiper-wrapper text-center">
-            <div class="swiper-slide" data-slide-bg="images/home-slider-slide-3.jpg">
+            <div class="swiper-slide" data-slide-bg="images/home-slider-slide-3.webp">
               <div class="swiper-slide-caption text-center">
                 <div class="container">
                   <div class="row justify-content-md-center">
@@ -86,7 +86,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide" data-slide-bg="images/registro_civico.jpg">
+            <div class="swiper-slide" data-slide-bg="images/registro_civico.webp">
               <div class="swiper-slide-caption text-center">
                 <div class="container">
                   <div class="row justify-content-md-center">
@@ -101,7 +101,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide" data-slide-bg="images/home-slider-slide-1.jpg">
+            <div class="swiper-slide" data-slide-bg="images/home-slider-slide-1.webp">
               <div class="swiper-slide-caption text-center">
               </div>
             </div>
@@ -169,7 +169,7 @@
           <div class="container">
             <div class="inset-xl-left-70 inset-xl-right-70">
               <article class="box-cart bg-ebony-clay" style="background:rgba(37, 80, 133,0.8)">
-                <div class="box-cart-image"><img src="images/presidente.PNG" alt="Presidente" width="342" height="338"/>
+                <div class="box-cart-image"><img src="images/presidente.webp" alt="Presidente" width="342" height="338"/>
                 </div>
                 <div class="box-cart-body">
                   <blockquote class="blockquote-complex blockquote-complex-inverse">
@@ -194,7 +194,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-displaced bg-image" style="background-image: url(images/costanera.jpg);"></div>
+        <div class="bg-displaced bg-image" style="background-image: url(images/costanera.webp);"></div>
       </section>
 
       <section class="section-60 section-lg-100">
@@ -203,7 +203,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Agustín Ortiz.jpg" alt="Agustin Ortiz" style="width: 100%; height: 100%"/>
+                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Agustín Ortiz.webp" alt="Agustin Ortiz" style="width: 100%; height: 100%"/>
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>
@@ -220,7 +220,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Alba espinola.jpg" alt="Alba Espinola" style="width: 100%; height: 100%" />
+                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Alba espinola.webp" alt="Alba Espinola" style="width: 100%; height: 100%" />
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>
@@ -237,7 +237,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image "><img src="nosotros/autoridades/Silvano_galeano.jpg" alt="Silvano Galeano" style="width: 100%; height: 100%" />
+                  <figure class="thumbnail-image "><img src="nosotros/autoridades/Silvano_galeano.webp" alt="Silvano Galeano" style="width: 100%; height: 100%" />
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>

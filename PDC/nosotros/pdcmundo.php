@@ -24,7 +24,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.webp" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -66,7 +66,7 @@
         </div>
       </header>
 
-      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner-pdcmundo.png);">
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner-pdcmundo.webp);">
         <div class="container">
           <div class="page-title">
             <h2>PDC en el mundo</h2>
@@ -79,7 +79,7 @@
           <h3>ODCA</h3>
           <div class="row row-30 flex-row-md-reverse justify-content-lg-between">
             <div class="col-md-6">
-              <figure><img src="../images/pdcmundo1.PNG" alt="ODCA" width="570" height="386"/>
+              <figure><img src="../images/pdcmundo1.webp" alt="ODCA" width="570" height="386"/>
               </figure>
             </div>
             <div class="col-md-6">
@@ -98,7 +98,7 @@
           <h3>KAS</h3>
           <div class="row row-30 justify-content-lg-between">
             <div class="col-md-6">
-              <figure><img src="../images/pdcmundo2.PNG" alt="KAS" width="570" height="386"/>
+              <figure><img src="../images/pdcmundo2.webp" alt="KAS" width="570" height="386"/>
               </figure>
             </div>
             <div class="col-md-6">
@@ -117,7 +117,7 @@
           <h3>Fotos ODCA</h3>
           <div class="row row-30 flex-row-md-reverse justify-content-lg-between">
             <div class="col-md-6">
-              <figure><img src="../images/pdcmundo3.jpg" alt="fotos ODCA" width="570" height="386"/>
+              <figure><img src="../images/pdcmundo3.webp" alt="fotos ODCA" width="570" height="386"/>
               </figure>
             </div>
             <div class="col-md-6">

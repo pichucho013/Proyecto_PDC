@@ -24,7 +24,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.webp" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -66,7 +66,7 @@
         </div>
       </header>
 
-      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner-quienes.png);">
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner-quienes.webp);">
         <div class="container">
           <div class="page-title">
             <h2>Quienes somos</h2>
