@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- pestaña canonical -->
     <link rel="canonical" href="http://www.pdc.org.py/" />
-  
     <!-- open graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://www.pdc.org.py" />
@@ -25,8 +24,6 @@
     <meta name="twitter:creator" content="@PDC_Paraguay" />
     <meta property="og:title" content="PDC: Partido Demócrata Cristiano" />
     <meta property="og:description" content="Sitio oficial del PDC. ¡Estamos destinados a la construcción de una Sociedad en progreso continuo.!" />
-
-
     <!-- schema.org -->
     <script type = "application / ld + json" > 
         { "@context" : "https://schema.org" , "@type" : " 
@@ -48,18 +45,14 @@
           "https://www.youtube.com/channel/UCQlRSiCKtDPjiA39i1bJxlw" 
         ]} 
     </script>
-
   </head>
   <body>
     <div class="page">
-      <header class="page-head">
-        
+      <header class="page-head">  
         <div class="rd-navbar-wrap">
           <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="53px" data-xl-stick-up-offset="53px" data-xxl-stick-up-offset="53px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
             <div class="rd-navbar-inner">
-          
-            <?php require('view/header.php'); ?>
-
+              <?php require('view/header.php'); ?>
             <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
                   <a class="rd-navbar-brand brand" href="index.php" ><img src="images/logo.webp" alt="logo del PDC" width="100px" class="opacidad"/></a>
@@ -102,9 +95,7 @@
             </div>
           </nav>
         </div>
-
       </header>
-      
       <section>
         <div class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="5500" data-simulate-touch="true">
           <div class="swiper-wrapper text-center">
@@ -148,7 +139,6 @@
           </div>
         </div>
       </section>
-
       <section class="section-50 section-md-75 section-lg-100">
         <div class="container">
           <div class="row row-40">
@@ -198,7 +188,6 @@
           </div>
         </div>
       </section>
-
       <section class="bg-displaced-wrap">
         <div class="bg-displaced-body">
           <div class="container">
@@ -231,7 +220,6 @@
         </div>
         <div class="bg-displaced bg-image" style="background-image: url(images/costanera.webp);"></div>
       </section>
-
       <section class="section-60 section-lg-100">
         <div class="container">
           <div class="row row-40 align-items-sm-end">
@@ -295,13 +283,10 @@
             </div>
           </div>
         </div>
-      </section>
-     
-
+      </section> 
         <section style="width:100%">
           <a href="https://simulador.tsje.gov.py/" target="_blanck" style="width:100%;height:100%;text-align:center;background:#E6E5E3"><img src="images/sala_electoral1.png" alt="Sala Electoral" style="width:80%;height:100%"></a>
         </section>
-
       <section class="section-50 section-md-75 section-xl-100">
         <div class="container">
           <h3 class="text-center">Destacadas</h3>
