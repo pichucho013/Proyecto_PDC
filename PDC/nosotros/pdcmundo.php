@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="es">
   <head>
     <title>Nosotros - PDC en el mundo</title>
     <meta name="format-detection" content="telephone=no">
