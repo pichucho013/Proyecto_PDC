@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="es">
   <head>
     <title>Nosotros - Autoridades</title>
 
@@ -26,7 +26,7 @@
 
               <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="../index.php"><img src="../images/logo.webp" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="../index.php" >Inicio</a>
@@ -67,7 +67,7 @@
           </nav>
         </div>
       </header>
-      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner-autoridades.png)">
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap" style="background-image: url(../images/banner-autoridades.webp)">
         <div class="container">
           <div class="page-title">
             <h2>Autoridades</h2>
@@ -79,7 +79,7 @@
         <div class="container" style="display:flex;flex-wrap: wrap;">
           <div class="autoridad">
             <article>
-              <figure class="carnet"><img src="autoridades/Silvano_galeano.jpg" alt="Silvano Galeano"></figure>
+              <figure class="carnet"><img src="autoridades/Silvano_galeano.webp" alt="Silvano Galeano"></figure>
               <p class="nombre">Lic. Silvano Galeano Bareiro</p>
               <p class="cargo">Miembro Titular de la Junta Nacional y Tesorero</p>
               <p class="bio">Silvano Galeano Bareiro es Lic. en Contabilidad por la Universidad Nacional de Asunción. 
@@ -98,7 +98,7 @@
 
           <div class="autoridad">
             <article>
-              <figure class="carnet"><img src="autoridades/Agustín Ortiz.jpg" alt="Agustion Ortiz"></figure>
+              <figure class="carnet"><img src="autoridades/Agustín Ortiz.webp" alt="Agustion Ortiz"></figure>
               <p class="nombre">Agustin Ortiz</p>
               <p class="cargo">Vicepresidente Segundo</p>
               <p class="bio">Agustín Ortiz nació en Buena Vista – Chaco, Paraguay. Está casado y tiene cuatro hijos. 
@@ -119,7 +119,7 @@
 
           <div class="autoridad">
             <article>
-              <figure class="carnet"><img src="autoridades/Alba espinola.jpg" alt="Alba Espinola"></figure>
+              <figure class="carnet"><img src="autoridades/Alba espinola.webp" alt="Alba Espinola"></figure>
               <p class="nombre">Alba Estela Espinola de Cristaldo </p>
               <p class="cargo">Miembro titular de la Junta Nacional y Representante Política del partido</p>
               <p class="bio">Alba Estela Espinola de Cristaldo nació el 5 de mayo de 1969 en la Ciudad de Coronel Oviedo, 

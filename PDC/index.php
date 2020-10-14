@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es" prefix="og:http://ogp.me/ns/website#">
   <head>
     <title>PDC - Partido Demócrata Cristiano</title>
     <meta name="format-detection" content="telephone=no">
@@ -12,6 +12,42 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- pestaña canonical -->
+    <link rel="canonical" href="http://www.pdc.org.py/" />
+  
+    <!-- open graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.pdc.org.py" />
+    <meta property="og:image" content="images/home-slider-slide-3.webp" />
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@PDC_Paraguay" />
+    <meta name="twitter:creator" content="@PDC_Paraguay" />
+    <meta property="og:title" content="PDC: Partido Demócrata Cristiano" />
+    <meta property="og:description" content="Sitio oficial del PDC. ¡Estamos destinados a la construcción de una Sociedad en progreso continuo.!" />
+
+
+    <!-- schema.org -->
+    <script type = "application / ld + json" > 
+        { "@context" : "https://schema.org" , "@type" : " 
+        Organización" , " nombre " : "
+        Partido Demócrata Cristiano Paraguay" ,
+        "Nombre alternativo": "PDC - PY", " url " : "
+        http://www.pdc.org.py" , " logo " : "
+        http://www.pdc.org.py/images/logo.webp" ,
+        "contactPoint": {
+        "@type": "ContactPoint",
+        "teléfono": "+59521420434",
+        "Tipo de Contacto": "Servicio al Cliente" ,
+        "contactOption": "Gratis",
+        "areaServed": "PY",
+        "availableLanguage": "es"
+        },
+        "igual que": "[
+        https://www.facebook.com/Partido-Dem%C3%B3crata-Cristiano-Paraguay-111195607373564/",
+          "https://www.youtube.com/channel/UCQlRSiCKtDPjiA39i1bJxlw" 
+        ]} 
+    </script>
 
   </head>
   <body>
@@ -21,12 +57,12 @@
         <div class="rd-navbar-wrap">
           <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="53px" data-xl-stick-up-offset="53px" data-xxl-stick-up-offset="53px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
             <div class="rd-navbar-inner">
-
+          
             <?php require('view/header.php'); ?>
 
             <div class="rd-navbar-group">
                 <div class="rd-navbar-panel">
-                  <a class="rd-navbar-brand brand" href="index.php" ><img src="images/logo.png" alt="logo del PDC" width="100px" class="opacidad"/></a>
+                  <a class="rd-navbar-brand brand" href="index.php" ><img src="images/logo.webp" alt="logo del PDC" width="100px" class="opacidad"/></a>
                 </div>
                 <div class="topnav" id="myTopnav">
                     <a href="index.php" class="activo">Inicio</a>
@@ -66,14 +102,13 @@
             </div>
           </nav>
         </div>
-      </header>
 
       </header>
-
+      
       <section>
         <div class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="5500" data-simulate-touch="true">
           <div class="swiper-wrapper text-center">
-            <div class="swiper-slide" data-slide-bg="images/home-slider-slide-3.jpg">
+            <div class="swiper-slide" data-slide-bg="images/home-slider-slide-3.webp">
               <div class="swiper-slide-caption text-center">
                 <div class="container">
                   <div class="row justify-content-md-center">
@@ -86,7 +121,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide" data-slide-bg="images/registro_civico.jpg">
+            <div class="swiper-slide" data-slide-bg="images/registro_civico.webp">
               <div class="swiper-slide-caption text-center">
                 <div class="container">
                   <div class="row justify-content-md-center">
@@ -101,7 +136,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-slide" data-slide-bg="images/home-slider-slide-1.jpg">
+            <div class="swiper-slide" data-slide-bg="images/home-slider-slide-1.webp">
               <div class="swiper-slide-caption text-center">
               </div>
             </div>
@@ -169,7 +204,7 @@
           <div class="container">
             <div class="inset-xl-left-70 inset-xl-right-70">
               <article class="box-cart bg-ebony-clay" style="background:rgba(37, 80, 133,0.8)">
-                <div class="box-cart-image"><img src="images/presidente.PNG" alt="Presidente" width="342" height="338"/>
+                <div class="box-cart-image"><img src="images/presidente.webp" alt="Presidente" width="342" height="338"/>
                 </div>
                 <div class="box-cart-body">
                   <blockquote class="blockquote-complex blockquote-complex-inverse">
@@ -194,7 +229,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-displaced bg-image" style="background-image: url(images/costanera.jpg);"></div>
+        <div class="bg-displaced bg-image" style="background-image: url(images/costanera.webp);"></div>
       </section>
 
       <section class="section-60 section-lg-100">
@@ -203,7 +238,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Agustín Ortiz.jpg" alt="Agustin Ortiz" style="width: 100%; height: 100%"/>
+                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Agustín Ortiz.webp" alt="Agustin Ortiz" style="width: 100%; height: 100%"/>
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>
@@ -220,7 +255,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Alba espinola.jpg" alt="Alba Espinola" style="width: 100%; height: 100%" />
+                  <figure class="thumbnail-image"><img src="nosotros/autoridades/Alba espinola.webp" alt="Alba Espinola" style="width: 100%; height: 100%" />
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>
@@ -237,7 +272,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="thumbnail-variant-2-wrap">
                 <div class="thumbnail thumbnail-variant-2">
-                  <figure class="thumbnail-image "><img src="nosotros/autoridades/Silvano_galeano.jpg" alt="Silvano Galeano" style="width: 100%; height: 100%" />
+                  <figure class="thumbnail-image "><img src="nosotros/autoridades/Silvano_galeano.webp" alt="Silvano Galeano" style="width: 100%; height: 100%" />
                   </figure>
                   <div class="thumbnail-inner">
                     <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone" style="opacity:0"></span></div>

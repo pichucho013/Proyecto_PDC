@@ -16,7 +16,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="fresco/dist/js/fresco.min.js"></script>
     <link rel="stylesheet" type="text/css" href="fresco/dist/css/fresco.css"/>
-  </head>
+
+    
   <body>
 
     <div class="page">
