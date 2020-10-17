@@ -14254,10 +14254,10 @@ html.boxed .rd-navbar--is-clone {
 
 @media (max-width: 426px) {
 	#carpeta {
-		width: 120px;
+		width: 350px;
 	}
 	#row1{
-		width: 100%;
+		width: 90%;
 	}
 	#album_pdc{
 		text-align: center;
@@ -14312,6 +14312,7 @@ html.boxed .rd-navbar--is-clone {
 		margin-bottom: 20px;
 		padding: 20px;
 	}
+
 }
 @media (max-width:425px){
 	.autoridad{
