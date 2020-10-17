@@ -154,6 +154,9 @@
         </div>
       </div>
     </section>
+    <section style="width:100%">
+      <a href="prensa/documentos.php" style="width:100%;height:100%;text-align:center;background:white"><img src="images/banner-zoom.webp" alt="zoom" style="width:80%;height:100%"></a>
+    </section>
     <section class="section-50 section-md-75 section-lg-100">
       <div class="container">
         <div class="row row-40">
@@ -235,6 +238,7 @@
       </div>
       <div class="bg-displaced bg-image" style="background-image: url(images/costanera.webp);"></div>
     </section>
+    
     <section class="section-60 section-lg-100">
       <div class="container">
         <div class="row row-40 align-items-sm-end">
