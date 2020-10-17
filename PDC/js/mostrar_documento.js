@@ -1,4 +1,6 @@
-var div = document.getElementById('contenido');
+var div1 = document.getElementById('contenido1');
+var div2 = document.getElementById('contenido2');
+var div3 = document.getElementById('contenido3');
 
 var odca = document.getElementById('fotos_odca');
 var pdc = document.getElementById('fotos_pdc');
@@ -8,7 +10,17 @@ var odca_foto = document.getElementById('thumb_odca');
 
 function mostrar(que_mostrar){
     if(que_mostrar == "resoluciones"){
-        div.style.display='block';
+        div1.style.display='block';
+        div2.style.display='none';
+        div3.style.display='none';
+    }else if(que_mostrar == "conferencia"){
+        div1.style.display='none';
+        div2.style.display='block';
+        div3.style.display='none';
+    }else if(que_mostrar == "programa"){
+        div1.style.display='none';
+        div2.style.display='none';
+        div3.style.display='block';        
     }
     
 }

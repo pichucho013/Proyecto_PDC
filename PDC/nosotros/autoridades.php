@@ -5,6 +5,7 @@
 
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="robots" content="index, follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="../images/logito.ico" type="image/x-icon">
@@ -124,13 +125,14 @@
               <p class="cargo">Miembro titular de la Junta Nacional y Representante Política del partido</p>
               <p class="bio">Alba Estela Espinola de Cristaldo nació el 5 de mayo de 1969 en la Ciudad de Coronel Oviedo, 
               Paraguay. Es Lic. En Administración de Empresas y en Bioimágenes, con especialización en imágenes médicas. 
-              Está casada con el Dr. Jesús Daniela Cristaldo Montaner y tiene dos hijas. Se unió a las filas del Partido 
+              Está casada con el Dr. Jesús Daniel Cristaldo Montaner y tiene dos hijas. Se unió a las filas del Partido 
               Demócrata Cristiano en 1990, en el año 1992 fue presidenta de la filial de Trinidad y desde el año 2000 en 
               adelante miembro Titular de la Junta Nacional. </p> 
               
               <p class="bio">Electa como vicepresidenta en dos periodos consecutivos (2005-2007) y (2008 – 2010), 
               Asume la presidencia del partido tras la renuncia de los presidentes Pablo González en el 2007 y 
-              Gerardo Rolon Pose 2008. Es electa como presidenta del Partido Demócrata Cristiano en el año 2011. 
+              Gerardo Rolon Pose 2008.<b> Es electa como presidenta del Partido Demócrata Cristiano en el año 2011. </b>Siendo 
+              la segunda mujer que asume la presidencia de un partido politico en Paraguay.
               Posteriormente participó como Miembro de la Junta Nacional en los periodos posteriores hasta el día de hoy.</p>
               <p class="bio">En el 2013 creó un nuevo Movimiento Interno “Todos por el PDC”, movimiento que lidera dentro del partido.</p>
               
@@ -140,7 +142,6 @@
         </div>
       </section>
 
-      
 
 
     <?php require('../view/footer.php'); ?>

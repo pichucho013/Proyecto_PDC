@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="description"  content="Sitio oficial del PDC. ¡Estamos destinados a la construcción de una Sociedad en progreso continuo.!" />
+    <meta name="robots" content="index, follow">
     <link rel="icon" href="images/logito.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/fuentes.css">
     <link rel="stylesheet" href="css/fonts.css">

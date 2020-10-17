@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
     <link rel="icon" href="../images/logito.ico" type="image/x-icon">
     <link rel="stylesheet" type="../text/css" href="css/fuentes.css">
     <link rel="stylesheet" href="../css/fonts.css">

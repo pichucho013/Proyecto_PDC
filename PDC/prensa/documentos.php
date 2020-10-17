@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
     <link rel="icon" href="../images/logito.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../css/fuentes.css">
     <link rel="stylesheet" href="../css/fonts.css">
@@ -86,16 +87,54 @@
                     <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Resoluciones</p>
                   </div></a>
             </div>
-        </div>
+
+            <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
+                <a href="#carpeta" onclick="mostrar('conferencia')" class="opacidad">
+                    <figure class="thumbnail-image"><img src="../images/folder.webp" alt="carpeta" width="246" height="300"/>
+                  </figure>
+                  <div class="thumbnail-caption">
+                    <p class="text-header" style="background-color: #255085;text-align: center;color: white;">1ra Conferencia Internacional</p>
+                  </div></a>
+            </div>
+
+            <div class="col-sm-2 col-md-2 col-lg-2" style="text-align:center" id="carpeta">
+                <a href="#carpeta" onclick="mostrar('programa')" class="opacidad">
+                    <figure class="thumbnail-image"><img src="../images/folder.webp" alt="carpeta" width="246" height="300"/>
+                  </figure>
+                  <div class="thumbnail-caption">
+                    <p class="text-header" style="background-color: #255085;text-align: center;color: white;">Programa del Evento ZOOM</p>
+                  </div></a>
+            </div>            
+          </div>
       </section>
 
       
-      <div id="contenido" style="text-align: center;">
+      <div id="contenido1" style="text-align: center;">
       <h3 style="text-align:center;color:#9F9F9F" id="resoluciones">Resoluciones</h3>
       <div style="text-align: left;width: 80%;margin: auto; margin-top:1%">
       <h4>Resolución Nº 78</h4>
       <!-- <a download href="../images/folder.png" >Descargar archivo desde aquí</a> -->
         <iframe id="iframepdf" src="../files/documentos/resoluciones/resoluciones.pdf"width="100%" height="600px"></iframe>
+        </div>  
+      </div>
+      <br>
+
+      <div id="contenido2" style="text-align: center;display: none;">
+      <h3 style="text-align:center;color:#9F9F9F" id="resoluciones">Conferencias</h3>
+      <div style="text-align: left;width: 80%;margin: auto; margin-top:1%">
+      <h4>1ra Conferencia Internacional</h4>
+      <!-- <a download href="../images/folder.png" >Descargar archivo desde aquí</a> -->
+        <iframe id="iframepdf" src="../files/documentos/resoluciones/conferencia-internacional.pdf"width="100%" height="600px"></iframe>
+        </div>  
+      </div>
+      <br>
+
+      <div id="contenido3" style="text-align: center;display: none;">
+      <h3 style="text-align:center;color:#9F9F9F" id="resoluciones">Programa del Evento ZOOM</h3>
+      <div style="text-align: left;width: 80%;margin: auto; margin-top:1%">
+      <h4>Programa del Evento ZOOM</h4>
+      <!-- <a download href="../images/folder.png" >Descargar archivo desde aquí</a> -->
+        <iframe id="iframepdf" src="../files/documentos/resoluciones/Programa-Evento-ZOOM.pdf"width="100%" height="600px"></iframe>
         </div>  
       </div>
       <br>
